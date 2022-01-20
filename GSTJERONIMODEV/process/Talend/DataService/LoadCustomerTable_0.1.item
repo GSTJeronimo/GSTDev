@@ -7,6 +7,7 @@
     <contextParameter comment="" internalId="_UEztlHn1EeyGDJ8YfFq14A" name="SQLServer_AdditionalParams" prompt="SQLServer_AdditionalParams?" promptNeeded="false" repositoryContextId="_01t-8HkxEeyntd_8tF3iEw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_UEztlXn1EeyGDJ8YfFq14A" name="SQLServer_Password" prompt="SQLServer_Password?" promptNeeded="false" repositoryContextId="_01t-8HkxEeyntd_8tF3iEw" type="id_Password" value=""/>
     <contextParameter comment="" internalId="_UEztlnn1EeyGDJ8YfFq14A" name="SQLServer_Database" prompt="SQLServer_Database?" promptNeeded="false" repositoryContextId="_01t-8HkxEeyntd_8tF3iEw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_lnIC4Hn3EeyGDJ8YfFq14A" name="contextFile" prompt="contextFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/temp/SQLServerContext.txt"/>
   </context>
   <context confirmationNeeded="false" name="Prod">
     <contextParameter comment="" internalId="_UEztl3n1EeyGDJ8YfFq14A" name="SQLServer_Server" prompt="SQLServer_Server?" promptNeeded="false" repositoryContextId="_01t-8HkxEeyntd_8tF3iEw" type="id_String" value=""/>
@@ -16,6 +17,7 @@
     <contextParameter comment="" internalId="_UEztm3n1EeyGDJ8YfFq14A" name="SQLServer_AdditionalParams" prompt="SQLServer_AdditionalParams?" promptNeeded="false" repositoryContextId="_01t-8HkxEeyntd_8tF3iEw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_UEztnHn1EeyGDJ8YfFq14A" name="SQLServer_Password" prompt="SQLServer_Password?" promptNeeded="false" repositoryContextId="_01t-8HkxEeyntd_8tF3iEw" type="id_Password" value=""/>
     <contextParameter comment="" internalId="_UEztnXn1EeyGDJ8YfFq14A" name="SQLServer_Database" prompt="SQLServer_Database?" promptNeeded="false" repositoryContextId="_01t-8HkxEeyntd_8tF3iEw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_lnIC4Xn3EeyGDJ8YfFq14A" name="contextFile" prompt="contextFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:/Context/SQLServerContext.txt"/>
   </context>
   <context confirmationNeeded="false" name="Dev">
     <contextParameter comment="" internalId="_UEztnnn1EeyGDJ8YfFq14A" name="SQLServer_Server" prompt="SQLServer_Server?" promptNeeded="false" repositoryContextId="_01t-8HkxEeyntd_8tF3iEw" type="id_String" value=""/>
@@ -25,6 +27,7 @@
     <contextParameter comment="" internalId="_UEztonn1EeyGDJ8YfFq14A" name="SQLServer_AdditionalParams" prompt="SQLServer_AdditionalParams?" promptNeeded="false" repositoryContextId="_01t-8HkxEeyntd_8tF3iEw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_UEzto3n1EeyGDJ8YfFq14A" name="SQLServer_Password" prompt="SQLServer_Password?" promptNeeded="false" repositoryContextId="_01t-8HkxEeyntd_8tF3iEw" type="id_Password" value=""/>
     <contextParameter comment="" internalId="_UEztpHn1EeyGDJ8YfFq14A" name="SQLServer_Database" prompt="SQLServer_Database?" promptNeeded="false" repositoryContextId="_01t-8HkxEeyntd_8tF3iEw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_lnIC4nn3EeyGDJ8YfFq14A" name="contextFile" prompt="contextFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="E:/ContextDev/SQLServerContext.txt"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -69,7 +72,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:v0XDUq/TjAbJ6z6gmIqG5NZiIyUZs5GAy992LtVK"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:C9gXDf0GJSc7beDGGIsSqwhjdO0Bbc2NINBcKqOA"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -104,7 +107,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:xD5kfOFB0vgKAJgN6H9K4B6XtxsHL0VPBF72/17n"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:yWGxuirBJaTMOV/zgRQ3nPe6H5+lUAEC0ZCacIFV"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -215,7 +218,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="context.SQLServer_Database"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="context.SQLServer_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ujLEpcgLobK9lqo+D2eIHB58pji+acPrppkb/iEJzRB8eG6cDpFjr+zbkpEPt57VYKVlZgEH"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:3h5jB0mz/xuna4xteiDLLCqaenUVkqCSoQS33P4xQMZ6SSor4yJlfYiVYlwhgy69fKCKeuzF"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;TALEND_CUSTOMERS&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -395,7 +398,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.SQLServer_Schema"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.SQLServer_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.SQLServer_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:VE+OYuIMS6SEoUIC+JoGhgTMlRTM563ICqa5TpHtMaynYppZMaUMG3pQAUnjM6PniRBrC7mC"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Zkd83EoRCNx8Ppn6fKZRRB3LK3LGe1iJEBmwuX4CTsLoWlxmlfweeErbl6sFAPae1BdBlQwM"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.SQLServer_AdditionalParams"/>
@@ -463,13 +466,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f23215db-c428-4ffd-8f1c-d9b2fa7b8925"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>g/LBKVSU7EqYOHVCLPmasbsUsXNKtBs+SO0MTK9hd2XCJbMQ4dSsoFSUJp267SWE8gzw4SUKCTVB&#13;
-2vxxeEVNGQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5323ad4c-ad1f-4da3-b59b-d99766e2d8f5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dJ3r6Xnc64lQc7P9UsMBJwqWoTj+M7cDhkgMApHRHE30jcEY7/nU4tVtKuLpVya+JKv0lJDZf/0/&#13;
-VOcJUZsMyg==</DigestValue></Reference></SignedInfo><SignatureValue>JRq/NhK2jwsY2PPdMFzN6lno60UmReWtgIz0FiHDNxM0JTXr19OtKxhdBvUmQrU2eokbnJT/nv30&#13;
-GOJapOAwnUC+0sMgnRL829JeFScTkJsO5XOeHek260R+xPlE+aS3KkDCbsVei6c7rQZbsK65jnUC&#13;
-JiOxt9Hb+h2z0lrwRhG1BAauRlkboE8irhKShc2LUAw+E3WJ4gM9JMq5WtGOrk2Y5e2wAsj6k39b&#13;
-/wtoXKJ/+gYH7Ed6iBlmYIg+GXbSN+vQ9+7boNSaBTdDgxcqFl0AlIorc+J/cmx0eXRYSDP1KTh9&#13;
-uEtC8f6Qbamq6NxgwDzlXvKNUqB+aXuIHPhvyw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2ad23f71-d1b1-4fbd-be89-93f6b3ce9613"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pq0aS51b2JghdDI2QFGz3sSMDaWNw39SR/V595xrtxSouWxFdF6xgX4D8UT5RAqXpNGveTXs8YiS&#13;
+AMQuyTBrPg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c410bdfe-053f-404f-8b57-98314a6fe33d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pjImVSZv7NSAkCx8RjXFp/o+V0qBF2AUqI75MwS+DNNhfnfdqfr4FLVynWYacklnmgaqVjrv8E7Z&#13;
+9nRHcNPGYw==</DigestValue></Reference></SignedInfo><SignatureValue>bM2Gg85l17CXqzHWH1kMoryM1xRzije5bjwGgihw7q7hnNjg+Yj87SDRf7sVkpx3VmXGKns8MHA9&#13;
+aRzEy3jonxP37BPUmWjCht0SqeO+e9OpC6QbpKRUKjNwaE8+efRgBYNF6PDqgKv/ypHg+75ypzkJ&#13;
+WO7zvEVzB3eKbuGRAzt8DdvDPuv4KZ6l6Z7bA6KfHbIWU3qKyMDo4NeoHqEBUX6wn8n4P8M1kRrI&#13;
+g9kqK1BQhQ4pxpFZyZL972PVCgh6sxOdhbcGoVw6nL8T0EJNFyoMWRDGLGIIlFzgGs9o/3FbxIeQ&#13;
+vix9m3ot8OgdxeWyMh+nzy6eHtgwuD43EKsm0Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -491,4 +494,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5323ad4c-ad1f-4da3-b59b-d99766e2d8f5" Target="#_f23215db-c428-4ffd-8f1c-d9b2fa7b8925"><Timestamp>2022-01-20 13:46:17</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c410bdfe-053f-404f-8b57-98314a6fe33d" Target="#_2ad23f71-d1b1-4fbd-be89-93f6b3ce9613"><Timestamp>2022-01-20 13:48:02</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
