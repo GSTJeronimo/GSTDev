@@ -76,6 +76,14 @@
     "id" : "_B6kx0HkxEeyntd_8tF3iEw",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "_Z5zRYHn9EeyGDJ8YfFq14A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_B6kx0HkxEeyntd_8tF3iEw - TALEND_CUSTOMERS",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
