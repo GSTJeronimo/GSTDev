@@ -1,0 +1,162 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "No description",
+    "version" : "1.0.0",
+    "title" : "Talend Customers API"
+  },
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/customers" : {
+      "get" : {
+        "summary" : "Get the list fo customers",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200",
+            "schema" : {
+              "$ref" : "#/definitions/Customers"
+            },
+            "examples" : {
+              "application/json" : "\n{\n\t\"Customer\": [{\n\t\t\t\t\t\"id\": \"10\",\n\t\t\t\t\t  \"firstName\": \"toto\",\n\t\t\t\t\t  \"lastName\": \"titi\",\n\t\t\t\t\t  \"city\": \"Zurich\",\n\t\t\t\t\t  \"email\": \"toto.titi@gucci.com\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"id\": \"11\",\n\t\t\t\t\t  \"firstName\": \"toto1\",\n\t\t\t\t\t  \"lastName\": \"titi1\",\n\t\t\t\t\t  \"city\": \"Zurich\",\n\t\t\t\t\t  \"email\": \"toto1.titi1@gucci.com\"\n\t\t\t\t}\n\t\t\n\t\t\t\t]\n\t\t  \n}"
+            }
+          }
+        }
+      },
+      "post" : {
+        "summary" : "Creat a acustomer",
+        "consumes" : [ ],
+        "parameters" : [ {
+          "name" : "body",
+          "in" : "body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/Customer"
+          },
+          "x-examples" : {
+            "application/json" : "{\n  \"id\": \"10\",\n  \"firstName\": \"toto\",\n  \"lastName\": \"titi\",\n  \"city\": \"Zurich\",\n  \"email\": \"toto.titi@gucci.com\"\n}"
+          }
+        } ],
+        "responses" : {
+          "201" : {
+            "description" : "Status 201",
+            "schema" : {
+              "$ref" : "#/definitions/Customer"
+            },
+            "examples" : {
+              "application/json" : "{\n  \"id\": \"10\",\n  \"firstName\": \"toto\",\n  \"lastName\": \"titi\",\n  \"city\": \"Zurich\",\n  \"email\": \"toto.titi@gucci.com\"\n}"
+            }
+          },
+          "409" : {
+            "description" : "Status 409",
+            "schema" : {
+              "$ref" : "#/definitions/Error"
+            }
+          }
+        }
+      },
+      "parameters" : [ ]
+    },
+    "/customers/{id}" : {
+      "get" : {
+        "summary" : "Customer by Id",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200",
+            "schema" : {
+              "$ref" : "#/definitions/Customer"
+            },
+            "examples" : {
+              "application/json" : "{\n  \"id\": \"10\",\n  \"firstName\": \"toto\",\n  \"lastName\": \"titi\",\n  \"city\": \"Zurich\",\n  \"email\": \"toto.titi@gucci.com\"\n}"
+            }
+          }
+        }
+      },
+      "put" : {
+        "summary" : "Update a customer",
+        "consumes" : [ ],
+        "parameters" : [ {
+          "name" : "body",
+          "in" : "body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/Customer"
+          },
+          "x-examples" : {
+            "application/json" : "{\n  \"id\": \"10\",\n  \"firstName\": \"toto\",\n  \"lastName\": \"titi\",\n  \"city\": \"Zurich\",\n  \"email\": \"toto.titi@gucci.com\"\n}"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200",
+            "schema" : {
+              "$ref" : "#/definitions/Customer"
+            },
+            "examples" : {
+              "application/json" : "{\n  \"id\": \"10\",\n  \"firstName\": \"toto\",\n  \"lastName\": \"titi\",\n  \"city\": \"Zurich\",\n  \"email\": \"toto.titi@gucci.com\"\n}"
+            }
+          }
+        }
+      },
+      "delete" : {
+        "summary" : "Delete a customer",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "parameters" : [ {
+        "name" : "id",
+        "in" : "path",
+        "required" : true,
+        "type" : "string"
+      } ]
+    }
+  },
+  "definitions" : {
+    "Customer" : {
+      "type" : "object",
+      "properties" : {
+        "id" : {
+          "type" : "string"
+        },
+        "firstName" : {
+          "type" : "string"
+        },
+        "lastName" : {
+          "type" : "string"
+        },
+        "city" : {
+          "type" : "string"
+        },
+        "email" : {
+          "type" : "string"
+        }
+      },
+      "example" : "{\r\n  \"id\": \"10\",\r\n  \"firstName\": \"toto\",\r\n  \"lastName\": \"titi\",\r\n  \"city\": \"Zurich\",\r\n  \"email\": \"toto.titi@gucci.com\"\r\n}"
+    },
+    "Customers" : {
+      "type" : "array",
+      "items" : {
+        "$ref" : "#/definitions/Customer"
+      }
+    },
+    "Error" : {
+      "type" : "object",
+      "properties" : {
+        "ID" : {
+          "type" : "string"
+        },
+        "errorCode" : {
+          "type" : "integer",
+          "minimum" : 400,
+          "maximum" : 509
+        }
+      }
+    }
+  }
+}
