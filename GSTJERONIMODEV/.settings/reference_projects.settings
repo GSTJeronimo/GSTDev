@@ -1,0 +1,6 @@
+{
+  "reference_projects" : [ {
+    "project" : "GST_COMMUN",
+    "branch" : "main"
+  } ]
+}
