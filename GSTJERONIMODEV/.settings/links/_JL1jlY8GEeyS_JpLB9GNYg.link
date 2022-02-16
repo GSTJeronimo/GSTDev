@@ -1,0 +1,26 @@
+{
+  "itemId" : "_JL1jlY8GEeyS_JpLB9GNYg",
+  "contextList" : [ {
+    "contextName" : "Dev",
+    "repoId" : "_EXMe8JLnEeuwT9vJeGwGSQ",
+    "parameterList" : [ {
+      "id" : "_nFFIYZLpEeuwT9vJeGwGSQ",
+      "name" : "GGAUS_Password"
+    }, {
+      "id" : "_nFFIYpLpEeuwT9vJeGwGSQ",
+      "name" : "GGAUS_Login"
+    }, {
+      "id" : "_nFFIY5LpEeuwT9vJeGwGSQ",
+      "name" : "GGAUS_AdditionalParams"
+    }, {
+      "id" : "_nFFIZJLpEeuwT9vJeGwGSQ",
+      "name" : "GGAUS_Database"
+    }, {
+      "id" : "_nFFIZZLpEeuwT9vJeGwGSQ",
+      "name" : "GGAUS_Server"
+    }, {
+      "id" : "_nFFIZpLpEeuwT9vJeGwGSQ",
+      "name" : "GGAUS_CONO"
+    } ]
+  } ]
+}

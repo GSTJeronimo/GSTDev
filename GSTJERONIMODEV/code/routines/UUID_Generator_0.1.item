@@ -1,0 +1,54 @@
+package routines;
+
+import java.time.Duration;
+import java.time.LocalDateTime;
+import java.util.Random;
+import java.util.UUID;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class UUID_Generator {
+
+	private static long get64LeastSignificantBitsForVersion1() {
+	    Random random = new Random();
+	    long random63BitLong = random.nextLong() & 0x3FFFFFFFFFFFFFFFL;
+	    long variant3BitFlag = 0x8000000000000000L;
+	    return random63BitLong + variant3BitFlag;
+	}
+
+	private static long get64MostSignificantBitsForVersion1() {
+	    LocalDateTime start = LocalDateTime.of(1582, 10, 15, 0, 0, 0);
+	    Duration duration = Duration.between(start, LocalDateTime.now());
+	    long seconds = duration.getSeconds();
+	    long nanos = duration.getNano();
+	    long timeForUuidIn100Nanos = seconds * 10000000 + nanos * 100;
+	    long least12SignificatBitOfTime = (timeForUuidIn100Nanos & 0x000000000000FFFFL) >> 4;
+	    long version = 1 << 12;
+	    return 
+	      (timeForUuidIn100Nanos & 0xFFFFFFFFFFFF0000L) + version + least12SignificatBitOfTime;
+	}
+
+	public static UUID generateType1UUID() {
+
+	    long most64SigBits = get64MostSignificantBitsForVersion1();
+	    long least64SigBits = get64LeastSignificantBitsForVersion1();
+
+	    return new UUID(most64SigBits, least64SigBits);
+	}
+}

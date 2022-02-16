@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_1U8AsJLmEeuwT9vJeGwGSQ">
+    <contextParameter comment="" name="GGHKO_Password" prompt="GGHKO_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:uuypSzXD1Yc0Ub587ILNWwB9olv+6E47YsrD+zJw07pzcSxPj7M=" xmi:id="_1U8AsZLmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_Login" prompt="GGHKO_Login?" promptNeeded="false" type="id_String" value="MVXMISCH" xmi:id="_1U8AspLmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_AdditionalParams" prompt="GGHKO_AdditionalParams?" promptNeeded="false" type="id_String" value="prompt=false" xmi:id="_1U8As5LmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_Database" prompt="GGHKO_Database?" promptNeeded="false" type="id_String" value="MVXBDTA545" xmi:id="_1U8AtJLmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_Server" prompt="GGHKO_Server?" promptNeeded="false" type="id_String" value="GGHKO" xmi:id="_1U8AtZLmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_CONO" prompt="GGHKO_CONO?" promptNeeded="false" type="id_Integer" value="545" xmi:id="_1U8AtpLmEeuwT9vJeGwGSQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_1U8At5LmEeuwT9vJeGwGSQ">
+    <contextParameter comment="" name="GGHKO_Password" prompt="GGHKO_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:OanEO5X9ovLXtpa9DxlzSST2GteZbG10eCJWxFLmQ5o+x915kNM=" xmi:id="_1U8AuJLmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_Login" prompt="GGHKO_Login?" promptNeeded="false" type="id_String" value="MVXMISCH" xmi:id="_1U8AuZLmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_AdditionalParams" prompt="GGHKO_AdditionalParams?" promptNeeded="false" type="id_String" value="prompt=false" xmi:id="_1U8AupLmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_Database" prompt="GGHKO_Database?" promptNeeded="false" type="id_String" value="MVXBDTA045" xmi:id="_1U8Au5LmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_Server" prompt="GGHKO_Server?" promptNeeded="false" type="id_String" value="GGHKO" xmi:id="_1U8AvJLmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_CONO" prompt="GGHKO_CONO?" promptNeeded="false" type="id_Integer" value="45" xmi:id="_1U8AvZLmEeuwT9vJeGwGSQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_1U8AvpLmEeuwT9vJeGwGSQ">
+    <contextParameter comment="" name="GGHKO_Password" prompt="GGHKO_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:zIWG26mqU3Gfi2TNb9v0fFW5w18Bq53/tONHYqB9gogRRo+nTM0=" xmi:id="_1U8Av5LmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_Login" prompt="GGHKO_Login?" promptNeeded="false" type="id_String" value="MVXMISCH" xmi:id="_1U8AwJLmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_AdditionalParams" prompt="GGHKO_AdditionalParams?" promptNeeded="false" type="id_String" value="prompt=false" xmi:id="_1U8AwZLmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_Database" prompt="GGHKO_Database?" promptNeeded="false" type="id_String" value="MVXBDTA545" xmi:id="_1U8AwpLmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_Server" prompt="GGHKO_Server?" promptNeeded="false" type="id_String" value="GGHKO" xmi:id="_1U8Aw5LmEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGHKO_CONO" prompt="GGHKO_CONO?" promptNeeded="false" type="id_Integer" value="545" xmi:id="_1U8AxJLmEeuwT9vJeGwGSQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_929b6742-a3d9-459c-975e-453b7663767c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>o8z2UNezjyHngOb+3tK9N97LQ75K3aLq90GDYLk//oRbBdkzj30FqsuydlNSQxix5Qb1jwAg8fv/&#13;
+Fa7pit1rzg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_82bc9d1a-d40c-412b-99eb-386c621e3493"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uBJN7CQc12++i2kboMXcuIObIwfZhR5eGIHjOpslKnp/KXMgg+iKFtP2eL+qfiLLg3L+BGEZOPo+&#13;
+M/Ejh+tRHA==</DigestValue></Reference></SignedInfo><SignatureValue>TrZUgPPtGqZHR+pSW7K3FTk51tx77LFYB0tNdk3zWbwA1Ub2FwsoI66nNB6zxbn24j/Gnld1EPs1&#13;
+HVCVeXHnLgMvTBc6z6YGv5+Ahu+kq1uSKoZbt/gT7nnODqPTSBqHe7zj96Z3RJ0I09zZoXfG85pB&#13;
+YIRA5ELL/ZqQ4B0kjfdY14GRTrJryHbjaM98pKbAOkVvcjQuSnivxh1NTHyolf32fNtTO68JNvz1&#13;
+yuQvoaygS4GJYzuQgmVLsyeitT0LP8omVld+hgNjjQIkPacJs2H7pV/SLsnWrjFYByeo5VI464ci&#13;
+W9ysBPJuttHx3Dz06hgGVEu3fol2MuGZUSWAUw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_82bc9d1a-d40c-412b-99eb-386c621e3493" Target="#_929b6742-a3d9-459c-975e-453b7663767c"><Timestamp>2022-02-16 08:55:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

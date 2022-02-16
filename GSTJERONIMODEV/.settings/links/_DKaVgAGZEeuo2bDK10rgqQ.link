@@ -1,0 +1,101 @@
+{
+  "itemId" : "_DKaVgAGZEeuo2bDK10rgqQ",
+  "contextList" : [ {
+    "contextName" : "Dev",
+    "repoId" : "_oFy4oAGYEeuo2bDK10rgqQ",
+    "parameterList" : [ {
+      "id" : "_oGO9gQGYEeuo2bDK10rgqQ",
+      "name" : "XSTORE_Report_Header"
+    }, {
+      "id" : "_oGO9ggGYEeuo2bDK10rgqQ",
+      "name" : "XSTORE_Report_Encoding"
+    }, {
+      "id" : "_oGO9gwGYEeuo2bDK10rgqQ",
+      "name" : "XSTORE_Report_FieldSeparator"
+    }, {
+      "id" : "_oGO9hAGYEeuo2bDK10rgqQ",
+      "name" : "XSTORE_Report_RowSeparator"
+    }, {
+      "id" : "_oGO9hQGYEeuo2bDK10rgqQ",
+      "name" : "XSTORE_Report_File"
+    }, {
+      "id" : "_-o2B0AInEeue4dtjEwSv4Q",
+      "name" : "XSTORE_Report_Folder_In"
+    }, {
+      "id" : "_HzqrcAJQEeue4dtjEwSv4Q",
+      "name" : "XSTORE_Report_Folder_Tmp"
+    }, {
+      "id" : "_HzqrcQJQEeue4dtjEwSv4Q",
+      "name" : "XSTORE_Report_Folder_Archive"
+    }, {
+      "id" : "_HzqrcgJQEeue4dtjEwSv4Q",
+      "name" : "CO_ORNO"
+    }, {
+      "id" : "_HzqrcwJQEeue4dtjEwSv4Q",
+      "name" : "CN_ORNO"
+    }, {
+      "id" : "_HzqrdAJQEeue4dtjEwSv4Q",
+      "name" : "SO_ORNO"
+    }, {
+      "id" : "_HzqrdQJQEeue4dtjEwSv4Q",
+      "name" : "CO_FileTemp"
+    }, {
+      "id" : "_HzqrdgJQEeue4dtjEwSv4Q",
+      "name" : "CN_FileTemp"
+    }, {
+      "id" : "_HzqrdwJQEeue4dtjEwSv4Q",
+      "name" : "SO_FileTemp"
+    }, {
+      "id" : "_HzqreAJQEeue4dtjEwSv4Q",
+      "name" : "FileName"
+    }, {
+      "id" : "_HzqreQJQEeue4dtjEwSv4Q",
+      "name" : "StoreID"
+    }, {
+      "id" : "_HzqregJQEeue4dtjEwSv4Q",
+      "name" : "StoreName"
+    }, {
+      "id" : "_HzqrewJQEeue4dtjEwSv4Q",
+      "name" : "StoreFACI"
+    }, {
+      "id" : "_HzqrfAJQEeue4dtjEwSv4Q",
+      "name" : "StoreWHLO"
+    }, {
+      "id" : "_HzrSgAJQEeue4dtjEwSv4Q",
+      "name" : "StorePYCD"
+    }, {
+      "id" : "_RS7SoAcbEeu3WfaYLXRohQ",
+      "name" : "CO_Type"
+    }, {
+      "id" : "_RS7SoQcbEeu3WfaYLXRohQ",
+      "name" : "CN_Type"
+    }, {
+      "id" : "_RS7SogcbEeu3WfaYLXRohQ",
+      "name" : "SO_Type"
+    }, {
+      "id" : "_bcyuQAo_Eeu_17iUJWBuWQ",
+      "name" : "CustomerNumber"
+    }, {
+      "id" : "_-dyT0AxYEeu_17iUJWBuWQ",
+      "name" : "CO_NBLINE"
+    }, {
+      "id" : "_-dyT0QxYEeu_17iUJWBuWQ",
+      "name" : "CN_NBLINE"
+    }, {
+      "id" : "_-dyT0gxYEeu_17iUJWBuWQ",
+      "name" : "SO_NBLINE"
+    }, {
+      "id" : "_d66fEC71Eeu2m6CA58WxrA",
+      "name" : "StoreCountry"
+    }, {
+      "id" : "_3Tl-kC71Eeu2m6CA58WxrA",
+      "name" : "StoreDIVI"
+    }, {
+      "id" : "_2DJmkD3sEeuZmYfzihprpA",
+      "name" : "LogPath"
+    }, {
+      "id" : "_75bEID3xEeuZmYfzihprpA",
+      "name" : "Env"
+    } ]
+  } ]
+}

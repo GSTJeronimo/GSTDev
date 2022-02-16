@@ -1,0 +1,26 @@
+{
+  "itemId" : "_JL1jl48GEeyS_JpLB9GNYg",
+  "contextList" : [ {
+    "contextName" : "Dev",
+    "repoId" : "_J20ecJLpEeuwT9vJeGwGSQ",
+    "parameterList" : [ {
+      "id" : "_fTJdIZLpEeuwT9vJeGwGSQ",
+      "name" : "GGJP_Password"
+    }, {
+      "id" : "_fTJdIpLpEeuwT9vJeGwGSQ",
+      "name" : "GGJP_Login"
+    }, {
+      "id" : "_fTJdI5LpEeuwT9vJeGwGSQ",
+      "name" : "GGJP_AdditionalParams"
+    }, {
+      "id" : "_fTJdJJLpEeuwT9vJeGwGSQ",
+      "name" : "GGJP_Database"
+    }, {
+      "id" : "_fTJdJZLpEeuwT9vJeGwGSQ",
+      "name" : "GGJP_Server"
+    }, {
+      "id" : "_fTJdJpLpEeuwT9vJeGwGSQ",
+      "name" : "GGJP_CONO"
+    } ]
+  } ]
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_nFFIYJLpEeuwT9vJeGwGSQ">
+    <contextParameter comment="" name="GGAUS_Password" prompt="GGAUS_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:ae2lAtkbuZXIKJgxyIcg0t/CzDrU6k2Y7K6pIcKEK3xyYcWQ0dk=" xmi:id="_nFFIYZLpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_Login" prompt="GGAUS_Login?" promptNeeded="false" type="id_String" value="MVXMISCH" xmi:id="_nFFIYpLpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_AdditionalParams" prompt="GGAUS_AdditionalParams?" promptNeeded="false" type="id_String" value="prompt=false" xmi:id="_nFFIY5LpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_Database" prompt="GGAUS_Database?" promptNeeded="false" type="id_String" value="MVXBDTA549" xmi:id="_nFFIZJLpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_Server" prompt="GGAUS_Server?" promptNeeded="false" type="id_String" value="GGAUSHK" xmi:id="_nFFIZZLpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_CONO" prompt="GGAUS_CONO?" promptNeeded="false" type="id_Integer" value="549" xmi:id="_nFFIZpLpEeuwT9vJeGwGSQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_nFFIZ5LpEeuwT9vJeGwGSQ">
+    <contextParameter comment="" name="GGAUS_Password" prompt="GGAUS_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:ve8R4k9pgk5zCg1Q5KqAadu8kPXKfXSjSOqcYcPSwcIsa1K5l7w=" xmi:id="_nFFIaJLpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_Login" prompt="GGAUS_Login?" promptNeeded="false" type="id_String" value="MVXMISCH" xmi:id="_nFFIaZLpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_AdditionalParams" prompt="GGAUS_AdditionalParams?" promptNeeded="false" type="id_String" value="prompt=false" xmi:id="_nFFIapLpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_Database" prompt="GGAUS_Database?" promptNeeded="false" type="id_String" value="MVXBDTA049" xmi:id="_nFFIa5LpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_Server" prompt="GGAUS_Server?" promptNeeded="false" type="id_String" value="GGAUSHK" xmi:id="_nFFIbJLpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_CONO" prompt="GGAUS_CONO?" promptNeeded="false" type="id_Integer" value="49" xmi:id="_nFFIbZLpEeuwT9vJeGwGSQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_nFFIbpLpEeuwT9vJeGwGSQ">
+    <contextParameter comment="" name="GGAUS_Password" prompt="GGAUS_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:oUnsWCKiXrWj1S2OB23oEgCw0jEQJe9JcwZv+TRPto3l6pVnPZQ=" xmi:id="_nFFIb5LpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_Login" prompt="GGAUS_Login?" promptNeeded="false" type="id_String" value="MVXMISCH" xmi:id="_nFFIcJLpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_AdditionalParams" prompt="GGAUS_AdditionalParams?" promptNeeded="false" type="id_String" value="prompt=false" xmi:id="_nFFIcZLpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_Database" prompt="GGAUS_Database?" promptNeeded="false" type="id_String" value="MVXBDTA549" xmi:id="_nFFIcpLpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_Server" prompt="GGAUS_Server?" promptNeeded="false" type="id_String" value="GGAUSHK" xmi:id="_nFFIc5LpEeuwT9vJeGwGSQ"/>
+    <contextParameter comment="" name="GGAUS_CONO" prompt="GGAUS_CONO?" promptNeeded="false" type="id_Integer" value="549" xmi:id="_nFFIdJLpEeuwT9vJeGwGSQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0df232c0-6aba-432d-844d-f67bcfcbffc9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>g62kYTx8om8qtWcC6MOq5Pi2JsjgS4P44NMFKSqaNo2gtE7ihD07elR0HTcv2MEC6K3xCLXoWuNI&#13;
+HZj0ZZc4zw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_09e6d37d-1e1e-43a5-9a7d-07ae2b138b15"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zzwvMkq29S101Jh2aRFpG6agUAGzIm3opAciWi44ugDl8DqI/nES5+r5jBk7NKCUwcKWyljlsdkK&#13;
+AyavaDlj4Q==</DigestValue></Reference></SignedInfo><SignatureValue>Q/VUecumWHFDN6lx1rSRjN5PT7quz7REl62kQi1PAmqrijNOuNhJ6RtZ0nWI5HDp80IUvWqwTbT2&#13;
+M0IrhfYnCA6/+TG3rYBeYp3hN1dxtNKQEg7FlPd8TXXhfqPw9WmVrq+dhcG1Q4Z7stAFIwIwo+s0&#13;
+JOKavHpqN/Ccig55lJzC3BfDNHj/oVMAcyDGH77qTNZnJzpCFmX5IwA85C8eFzZC0nJRgsWvPfnq&#13;
+5EXs5OiXn4HKxVJP827wQc/cNbhJObGbU3MJm03KMeOxBZEOUBqNG5bROfVqsKB+VCrI84yvbhA1&#13;
+aKDRG2LES1UcI+Vl/BfDa/oskJy+5F5Q40sJTw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_09e6d37d-1e1e-43a5-9a7d-07ae2b138b15" Target="#_0df232c0-6aba-432d-844d-f67bcfcbffc9"><Timestamp>2022-02-16 08:55:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,334 @@
+{
+  "itemId" : "_xIyVsCmxEeuHSrcUBcbYJg",
+  "contextList" : [ {
+    "contextName" : "Prod",
+    "repoId" : "_cXnLMBj6EeuQX4no077JHQ",
+    "parameterList" : [ {
+      "id" : "_oGO9jQGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_Header"
+    }, {
+      "id" : "_oGO9jgGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_Encoding"
+    }, {
+      "id" : "_oGO9jwGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_FieldSeparator"
+    }, {
+      "id" : "_oGO9kAGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_RowSeparator"
+    }, {
+      "id" : "_oGO9kQGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_File"
+    }, {
+      "id" : "_-o2B0gInEeue4dtjEwSv4Q",
+      "name" : "COLOR_Report_Folder_In"
+    }, {
+      "id" : "_HzrSjwJQEeue4dtjEwSv4Q",
+      "name" : "COLOR_Report_Folder_Tmp"
+    }, {
+      "id" : "_HzrSkAJQEeue4dtjEwSv4Q",
+      "name" : "COLOR_Report_Folder_Archive"
+    }, {
+      "id" : "_HzrSkQJQEeue4dtjEwSv4Q",
+      "name" : "CO_ORNO"
+    }, {
+      "id" : "_HzrSkgJQEeue4dtjEwSv4Q",
+      "name" : "CN_ORNO"
+    }, {
+      "id" : "_HzrSkwJQEeue4dtjEwSv4Q",
+      "name" : "SO_ORNO"
+    }, {
+      "id" : "_HzrSlAJQEeue4dtjEwSv4Q",
+      "name" : "CO_FileTemp"
+    }, {
+      "id" : "_HzrSlQJQEeue4dtjEwSv4Q",
+      "name" : "CN_FileTemp"
+    }, {
+      "id" : "_HzrSlgJQEeue4dtjEwSv4Q",
+      "name" : "SO_FileTemp"
+    }, {
+      "id" : "_HzrSlwJQEeue4dtjEwSv4Q",
+      "name" : "FileName"
+    }, {
+      "id" : "_HzrSmAJQEeue4dtjEwSv4Q",
+      "name" : "StoreID"
+    }, {
+      "id" : "_HzrSmQJQEeue4dtjEwSv4Q",
+      "name" : "StoreName"
+    }, {
+      "id" : "_HzrSmgJQEeue4dtjEwSv4Q",
+      "name" : "StoreFACI"
+    }, {
+      "id" : "_HzrSmwJQEeue4dtjEwSv4Q",
+      "name" : "StoreWHLO"
+    }, {
+      "id" : "_HzrSnAJQEeue4dtjEwSv4Q",
+      "name" : "StorePYCD"
+    }, {
+      "id" : "_RS7SpgcbEeu3WfaYLXRohQ",
+      "name" : "CO_Type"
+    }, {
+      "id" : "_RS7SpwcbEeu3WfaYLXRohQ",
+      "name" : "CN_Type"
+    }, {
+      "id" : "_RS7SqAcbEeu3WfaYLXRohQ",
+      "name" : "SO_Type"
+    }, {
+      "id" : "_bcyuQgo_Eeu_17iUJWBuWQ",
+      "name" : "CustomerNumber"
+    }, {
+      "id" : "_-dyT1gxYEeu_17iUJWBuWQ",
+      "name" : "CO_NBLINE"
+    }, {
+      "id" : "_-dyT1wxYEeu_17iUJWBuWQ",
+      "name" : "CN_NBLINE"
+    }, {
+      "id" : "_-dyT2AxYEeu_17iUJWBuWQ",
+      "name" : "SO_NBLINE"
+    }, {
+      "id" : "_MXcV5CQAEeuNy76sP9rsuw",
+      "name" : "lstCustomer"
+    }, {
+      "id" : "_MXcV5SQAEeuNy76sP9rsuw",
+      "name" : "lstStealth"
+    }, {
+      "id" : "_DIFi8SmpEeuHSrcUBcbYJg",
+      "name" : "COLOR_Report_Folder_EDI"
+    }, {
+      "id" : "_KBQIIiszEeujvOvv1Xhf-Q",
+      "name" : "DO_NBLINE"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_JL1ji48GEeyS_JpLB9GNYg",
+    "parameterList" : [ {
+      "id" : "_TXaOqAMEEeue4dtjEwSv4Q",
+      "name" : "UserName"
+    }, {
+      "id" : "_ZHr5MQisEeu_17iUJWBuWQ",
+      "name" : "WSDL_Path"
+    }, {
+      "id" : "_TXaOqQMEEeue4dtjEwSv4Q",
+      "name" : "Password"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_cXnLMBj6EeuQX4no077JHQ",
+    "parameterList" : [ {
+      "id" : "_oGO9gQGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_Header"
+    }, {
+      "id" : "_oGO9ggGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_Encoding"
+    }, {
+      "id" : "_oGO9gwGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_FieldSeparator"
+    }, {
+      "id" : "_oGO9hAGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_RowSeparator"
+    }, {
+      "id" : "_oGO9hQGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_File"
+    }, {
+      "id" : "_-o2B0AInEeue4dtjEwSv4Q",
+      "name" : "COLOR_Report_Folder_In"
+    }, {
+      "id" : "_HzqrcAJQEeue4dtjEwSv4Q",
+      "name" : "COLOR_Report_Folder_Tmp"
+    }, {
+      "id" : "_HzqrcQJQEeue4dtjEwSv4Q",
+      "name" : "COLOR_Report_Folder_Archive"
+    }, {
+      "id" : "_HzqrcgJQEeue4dtjEwSv4Q",
+      "name" : "CO_ORNO"
+    }, {
+      "id" : "_HzqrcwJQEeue4dtjEwSv4Q",
+      "name" : "CN_ORNO"
+    }, {
+      "id" : "_HzqrdAJQEeue4dtjEwSv4Q",
+      "name" : "SO_ORNO"
+    }, {
+      "id" : "_HzqrdQJQEeue4dtjEwSv4Q",
+      "name" : "CO_FileTemp"
+    }, {
+      "id" : "_HzqrdgJQEeue4dtjEwSv4Q",
+      "name" : "CN_FileTemp"
+    }, {
+      "id" : "_HzqrdwJQEeue4dtjEwSv4Q",
+      "name" : "SO_FileTemp"
+    }, {
+      "id" : "_HzqreAJQEeue4dtjEwSv4Q",
+      "name" : "FileName"
+    }, {
+      "id" : "_HzqreQJQEeue4dtjEwSv4Q",
+      "name" : "StoreID"
+    }, {
+      "id" : "_HzqregJQEeue4dtjEwSv4Q",
+      "name" : "StoreName"
+    }, {
+      "id" : "_HzqrewJQEeue4dtjEwSv4Q",
+      "name" : "StoreFACI"
+    }, {
+      "id" : "_HzqrfAJQEeue4dtjEwSv4Q",
+      "name" : "StoreWHLO"
+    }, {
+      "id" : "_HzrSgAJQEeue4dtjEwSv4Q",
+      "name" : "StorePYCD"
+    }, {
+      "id" : "_RS7SoAcbEeu3WfaYLXRohQ",
+      "name" : "CO_Type"
+    }, {
+      "id" : "_RS7SoQcbEeu3WfaYLXRohQ",
+      "name" : "CN_Type"
+    }, {
+      "id" : "_RS7SogcbEeu3WfaYLXRohQ",
+      "name" : "SO_Type"
+    }, {
+      "id" : "_bcyuQAo_Eeu_17iUJWBuWQ",
+      "name" : "CustomerNumber"
+    }, {
+      "id" : "_-dyT0AxYEeu_17iUJWBuWQ",
+      "name" : "CO_NBLINE"
+    }, {
+      "id" : "_-dyT0QxYEeu_17iUJWBuWQ",
+      "name" : "CN_NBLINE"
+    }, {
+      "id" : "_-dyT0gxYEeu_17iUJWBuWQ",
+      "name" : "SO_NBLINE"
+    }, {
+      "id" : "_MXcV4CQAEeuNy76sP9rsuw",
+      "name" : "lstCustomer"
+    }, {
+      "id" : "_MXcV4SQAEeuNy76sP9rsuw",
+      "name" : "lstStealth"
+    }, {
+      "id" : "_DIE74CmpEeuHSrcUBcbYJg",
+      "name" : "COLOR_Report_Folder_EDI"
+    }, {
+      "id" : "_KBQIICszEeujvOvv1Xhf-Q",
+      "name" : "DO_NBLINE"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_JL1ji48GEeyS_JpLB9GNYg",
+    "parameterList" : [ {
+      "id" : "_TXaOowMEEeue4dtjEwSv4Q",
+      "name" : "UserName"
+    }, {
+      "id" : "_ZHr5MAisEeu_17iUJWBuWQ",
+      "name" : "WSDL_Path"
+    }, {
+      "id" : "_TXaOpAMEEeue4dtjEwSv4Q",
+      "name" : "Password"
+    } ]
+  }, {
+    "contextName" : "Test",
+    "repoId" : "_cXnLMBj6EeuQX4no077JHQ",
+    "parameterList" : [ {
+      "id" : "_oGO9hwGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_Header"
+    }, {
+      "id" : "_oGO9iAGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_Encoding"
+    }, {
+      "id" : "_oGO9iQGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_FieldSeparator"
+    }, {
+      "id" : "_oGO9igGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_RowSeparator"
+    }, {
+      "id" : "_oGO9iwGYEeuo2bDK10rgqQ",
+      "name" : "COLOR_Report_File"
+    }, {
+      "id" : "_-o2B0QInEeue4dtjEwSv4Q",
+      "name" : "COLOR_Report_Folder_In"
+    }, {
+      "id" : "_HzrSgQJQEeue4dtjEwSv4Q",
+      "name" : "COLOR_Report_Folder_Tmp"
+    }, {
+      "id" : "_HzrSggJQEeue4dtjEwSv4Q",
+      "name" : "COLOR_Report_Folder_Archive"
+    }, {
+      "id" : "_HzrSgwJQEeue4dtjEwSv4Q",
+      "name" : "CO_ORNO"
+    }, {
+      "id" : "_HzrShAJQEeue4dtjEwSv4Q",
+      "name" : "CN_ORNO"
+    }, {
+      "id" : "_HzrShQJQEeue4dtjEwSv4Q",
+      "name" : "SO_ORNO"
+    }, {
+      "id" : "_HzrShgJQEeue4dtjEwSv4Q",
+      "name" : "CO_FileTemp"
+    }, {
+      "id" : "_HzrShwJQEeue4dtjEwSv4Q",
+      "name" : "CN_FileTemp"
+    }, {
+      "id" : "_HzrSiAJQEeue4dtjEwSv4Q",
+      "name" : "SO_FileTemp"
+    }, {
+      "id" : "_HzrSiQJQEeue4dtjEwSv4Q",
+      "name" : "FileName"
+    }, {
+      "id" : "_HzrSigJQEeue4dtjEwSv4Q",
+      "name" : "StoreID"
+    }, {
+      "id" : "_HzrSiwJQEeue4dtjEwSv4Q",
+      "name" : "StoreName"
+    }, {
+      "id" : "_HzrSjAJQEeue4dtjEwSv4Q",
+      "name" : "StoreFACI"
+    }, {
+      "id" : "_HzrSjQJQEeue4dtjEwSv4Q",
+      "name" : "StoreWHLO"
+    }, {
+      "id" : "_HzrSjgJQEeue4dtjEwSv4Q",
+      "name" : "StorePYCD"
+    }, {
+      "id" : "_RS7SowcbEeu3WfaYLXRohQ",
+      "name" : "CO_Type"
+    }, {
+      "id" : "_RS7SpAcbEeu3WfaYLXRohQ",
+      "name" : "CN_Type"
+    }, {
+      "id" : "_RS7SpQcbEeu3WfaYLXRohQ",
+      "name" : "SO_Type"
+    }, {
+      "id" : "_bcyuQQo_Eeu_17iUJWBuWQ",
+      "name" : "CustomerNumber"
+    }, {
+      "id" : "_-dyT0wxYEeu_17iUJWBuWQ",
+      "name" : "CO_NBLINE"
+    }, {
+      "id" : "_-dyT1AxYEeu_17iUJWBuWQ",
+      "name" : "CN_NBLINE"
+    }, {
+      "id" : "_-dyT1QxYEeu_17iUJWBuWQ",
+      "name" : "SO_NBLINE"
+    }, {
+      "id" : "_MXcV4iQAEeuNy76sP9rsuw",
+      "name" : "lstCustomer"
+    }, {
+      "id" : "_MXcV4yQAEeuNy76sP9rsuw",
+      "name" : "lstStealth"
+    }, {
+      "id" : "_DIFi8CmpEeuHSrcUBcbYJg",
+      "name" : "COLOR_Report_Folder_EDI"
+    }, {
+      "id" : "_KBQIISszEeujvOvv1Xhf-Q",
+      "name" : "DO_NBLINE"
+    } ]
+  }, {
+    "contextName" : "Test",
+    "repoId" : "_JL1ji48GEeyS_JpLB9GNYg",
+    "parameterList" : [ {
+      "id" : "_TXaOrQMEEeue4dtjEwSv4Q",
+      "name" : "UserName"
+    }, {
+      "id" : "_ZHr5MgisEeu_17iUJWBuWQ",
+      "name" : "WSDL_Path"
+    }, {
+      "id" : "_TXaOrgMEEeue4dtjEwSv4Q",
+      "name" : "Password"
+    } ]
+  } ]
+}

@@ -1,0 +1,1911 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Dev" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" internalId="_XvhPMI8GEeyS_JpLB9GNYg" name="M3_Password" prompt="M3_Password?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_Password" value="enc:system.encryption.key.v1:hU3wxw67R39DjjxFJv4fQUJxupVcZloisqYTgGPx+Ncl3itG"/>
+    <contextParameter comment="" internalId="_XvhPMY8GEeyS_JpLB9GNYg" name="M3_Login" prompt="M3_Login?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_String" value="LCMADMIN"/>
+    <contextParameter comment="" internalId="_XvhPMo8GEeyS_JpLB9GNYg" name="M3_AdditionalParams" prompt="M3_AdditionalParams?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_String" value="prompt=false"/>
+    <contextParameter comment="" internalId="_XvhPM48GEeyS_JpLB9GNYg" name="M3_Database" prompt="M3_Database?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_String" value="M3FDBPRD"/>
+    <contextParameter comment="" internalId="_XvhPNI8GEeyS_JpLB9GNYg" name="M3_Server" prompt="M3_Server?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_String" value="GGM3"/>
+    <contextParameter comment="" internalId="_XvhPNY8GEeyS_JpLB9GNYg" name="M3_CONO" prompt="M3_CONO?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_Integer" value="10"/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" internalId="_XvhPNo8GEeyS_JpLB9GNYg" name="M3_Password" prompt="M3_Password?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_Password" value="enc:system.encryption.key.v1:AYUQ//K4LeCtx6zyQay3aTlWL0ts6pv4bK7GlfsBGhLD/cnF"/>
+    <contextParameter comment="" internalId="_XvhPN48GEeyS_JpLB9GNYg" name="M3_Login" prompt="M3_Login?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_String" value="LCMADMIN"/>
+    <contextParameter comment="" internalId="_XvhPOI8GEeyS_JpLB9GNYg" name="M3_AdditionalParams" prompt="M3_AdditionalParams?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_String" value="prompt=false"/>
+    <contextParameter comment="" internalId="_XvhPOY8GEeyS_JpLB9GNYg" name="M3_Database" prompt="M3_Database?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_String" value="M3FDBTST"/>
+    <contextParameter comment="" internalId="_XvhPOo8GEeyS_JpLB9GNYg" name="M3_Server" prompt="M3_Server?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_String" value="GTCHDEV"/>
+    <contextParameter comment="" internalId="_XvhPO48GEeyS_JpLB9GNYg" name="M3_CONO" prompt="M3_CONO?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_Integer" value="510"/>
+  </context>
+  <context confirmationNeeded="false" name="Test">
+    <contextParameter comment="" internalId="_XvhPPI8GEeyS_JpLB9GNYg" name="M3_Password" prompt="M3_Password?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_Password" value="enc:system.encryption.key.v1:h/ppXUop+Lvwffj1QX/GaPhFNUSFSyqzgxwEJRVkuP+buHE9"/>
+    <contextParameter comment="" internalId="_XvhPPY8GEeyS_JpLB9GNYg" name="M3_Login" prompt="M3_Login?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_String" value="LCMADMIN"/>
+    <contextParameter comment="" internalId="_XvhPPo8GEeyS_JpLB9GNYg" name="M3_AdditionalParams" prompt="M3_AdditionalParams?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_String" value="prompt=false"/>
+    <contextParameter comment="" internalId="_XvhPP48GEeyS_JpLB9GNYg" name="M3_Database" prompt="M3_Database?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_String" value="M3FDBTST"/>
+    <contextParameter comment="" internalId="_XvhPQI8GEeyS_JpLB9GNYg" name="M3_Server" prompt="M3_Server?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_String" value="GTCHDEV"/>
+    <contextParameter comment="" internalId="_XvhPQY8GEeyS_JpLB9GNYg" name="M3_CONO" prompt="M3_CONO?" promptNeeded="false" repositoryContextId="_JL1jiY8GEeyS_JpLB9GNYg" type="id_Integer" value="510"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:U9Ps4kfRDZx+f6x4vBVfCgqeHycsNB6D+IFhFIVl"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend-Studio-V8.0.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:IjJ7aQ422OHxUm+OmfbyxWPydd2nt5eol0jTBnhI"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_PAU34BozEemvhq_PiJlOJg" name="DataOperation"/>
+    <routinesParameter id="_PA774BozEemvhq_PiJlOJg" name="Mathematical"/>
+    <routinesParameter id="_PBCpkBozEemvhq_PiJlOJg" name="Numeric"/>
+    <routinesParameter id="_PBLzgBozEemvhq_PiJlOJg" name="Relational"/>
+    <routinesParameter id="_PBRTEBozEemvhq_PiJlOJg" name="StringHandling"/>
+    <routinesParameter id="_PBZO4BozEemvhq_PiJlOJg" name="TalendDataGenerator"/>
+    <routinesParameter id="_PBhKsBozEemvhq_PiJlOJg" name="TalendDate"/>
+    <routinesParameter id="_PB3I8BozEemvhq_PiJlOJg" name="TalendStringUtil"/>
+    <routinesParameter id="_PBxCUBozEemvhq_PiJlOJg" name="TalendString"/>
+    <routinesParameter id="__Nac8G44EeyH6pqyGkidSg" name="SQLike"/>
+  </parameters>
+  <node componentName="tAS400Input" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_JL1jmI8GEeyS_JpLB9GNYg"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="jt400-9.8.jar"/>
+    <elementParameter field="TEXT" name="HOST" value="context.M3_Server"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.M3_Database"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="AS400"/>
+    <elementParameter field="TEXT" name="USER" value="context.M3_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MEDQmRpHrR0+1zg2aGTaQXVgLHnVMR2X4KdCtxMBfEehWmIlTTklfrknYox73mw="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;OXLINE&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  OXLINE.OBCONO, &#10;  OXLINE.OBDIVI, &#10;  OXLINE.OBORNO, &#10;  OXLINE.OBPONR, &#10;  OXLINE.OBPOSX, &#10;  OXLINE.OBLTYP, &#10;  OXLINE.OBORST, &#10;  OXLINE.OBFACI, &#10;  OXLINE.OBWHLO, &#10;  OXLINE.OBITNO, &#10;  OXLINE.OBREPI, &#10;  OXLINE.OBITDS, &#10;  OXLINE.OBTEDS, &#10;  OXLINE.OBORQT, &#10;  OXLINE.OBORQA, &#10;  OXLINE.OBRNQT, &#10;  OXLINE.OBRNQA, &#10;  OXLINE.OBALQT, &#10;  OXLINE.OBALQA, &#10;  OXLINE.OBPLQT, &#10;  OXLINE.OBPLQA, &#10;  OXLINE.OBDLQT, &#10;  OXLINE.OBDLQA, &#10;  OXLINE.OBIVQT, &#10;  OXLINE.OBIVQA, &#10;  OXLINE.OBDCCD, &#10;  OXLINE.OBALUN, &#10;  OXLINE.OBDCCA, &#10;  OXLINE.OBCOFA, &#10;  OXLINE.OBDMCF, &#10;  OXLINE.OBSPUN, &#10;  OXLINE.OBPCOF, &#10;  OXLINE.OBDCCS, &#10;  OXLINE.OBCOFS, &#10;  OXLINE.OBDMCS, &#10;  OXLINE.OBPOPN, &#10;  OXLINE.OBALWT, &#10;  OXLINE.OBALWQ, &#10;  OXLINE.OBSAPR, &#10;  OXLINE.OBNEPR, &#10;  OXLINE.OBSACD, &#10;  OXLINE.OBPRMO, &#10;  OXLINE.OBDIC1, &#10;  OXLINE.OBDIC2, &#10;  OXLINE.OBDIC3, &#10;  OXLINE.OBDIC4, &#10;  OXLINE.OBDIC5, &#10;  OXLINE.OBDIC6, &#10;  OXLINE.OBDIP1, &#10;  OXLINE.OBDIP2, &#10;  OXLINE.OBDIP3, &#10;  OXLINE.OBDIP4, &#10;  OXLINE.OBDIP5, &#10;  OXLINE.OBDIP6, &#10;  OXLINE.OBDIA1, &#10;  OXLINE.OBDIA2, &#10;  OXLINE.OBDIA3, &#10;  OXLINE.OBDIA4, &#10;  OXLINE.OBDIA5, &#10;  OXLINE.OBDIA6, &#10;  OXLINE.OBCMP1, &#10;  OXLINE.OBCMP2, &#10;  OXLINE.OBCMP3, &#10;  OXLINE.OBCMP4, &#10;  OXLINE.OBCMP5, &#10;  OXLINE.OBCMP6, &#10;  OXLINE.OBDIBE, &#10;  OXLINE.OBDIRE, &#10;  OXLINE.OBDCHA, &#10;  OXLINE.OBDPST, &#10;  OXLINE.OBDDSU, &#10;  OXLINE.OBIDSC, &#10;  OXLINE.OBACRF, &#10;  OXLINE.OBOTDI, &#10;  OXLINE.OBDWDT, &#10;  OXLINE.OBDWHM, &#10;  OXLINE.OBCODT, &#10;  OXLINE.OBCOHM, &#10;  OXLINE.OBDWDZ, &#10;  OXLINE.OBDWHZ, &#10;  OXLINE.OBCODZ, &#10;  OXLINE.OBCOHZ, &#10;  OXLINE.OBTIZO, &#10;  OXLINE.OBDLTS, &#10;  OXLINE.OBSTCD, &#10;  OXLINE.OBPRCH, &#10;  OXLINE.OBRORC, &#10;  OXLINE.OBRORN, &#10;  OXLINE.OBRORL, &#10;  OXLINE.OBUCOS, &#10;  OXLINE.OBCOCD, &#10;  OXLINE.OBUCCD, &#10;  OXLINE.OBCMNO, &#10;  OXLINE.OBHDPR, &#10;  OXLINE.OBCFIN, &#10;  OXLINE.OBECVS, &#10;  OXLINE.OBVTCD, &#10;  OXLINE.OBJDCD, &#10;  OXLINE.OBDLSP, &#10;  OXLINE.OBLNAM, &#10;  OXLINE.OBLNA2, &#10;  OXLINE.OBDINR, &#10;  OXLINE.OBDISX, &#10;  OXLINE.OBAGNO, &#10;  OXLINE.OBBAGC, &#10;  OXLINE.OBBAGD, &#10;  OXLINE.OBAGLN, &#10;  OXLINE.OBPRRF, &#10;  OXLINE.OBNTCD, &#10;  OXLINE.OBCNQT, &#10;  OXLINE.OBEDFP, &#10;  OXLINE.OBSMCD, &#10;  OXLINE.OBBNCD, &#10;  OXLINE.OBPRAC, &#10;  OXLINE.OBVRCD, &#10;  OXLINE.OBECLC, &#10;  OXLINE.OBORCO, &#10;  OXLINE.OBPRTX, &#10;  OXLINE.OBPOTX, &#10;  OXLINE.OBDTID, &#10;  OXLINE.OBDELS, &#10;  OXLINE.OBE0PA, &#10;  OXLINE.OBDSGP, &#10;  OXLINE.OBMOYE, &#10;  OXLINE.OBPUSN, &#10;  OXLINE.OBPUTP, &#10;  OXLINE.OBQTQL, &#10;  OXLINE.OBTEPA, &#10;  OXLINE.OBPACT, &#10;  OXLINE.OBCUPA, &#10;  OXLINE.OBD1QT, &#10;  OXLINE.OBCUNO, &#10;  OXLINE.OBCUOR, &#10;  OXLINE.OBCUPO, &#10;  OXLINE.OBCUSX, &#10;  OXLINE.OBSMCC, &#10;  OXLINE.OBRSCD, &#10;  OXLINE.OBMUFT, &#10;  OXLINE.OBINPR, &#10;  OXLINE.OBCUCT, &#10;  OXLINE.OBABNO, &#10;  OXLINE.OBPROJ, &#10;  OXLINE.OBELNO, &#10;  OXLINE.OBBPAT, &#10;  OXLINE.OBBPST, &#10;  OXLINE.OBNOAA, &#10;  OXLINE.OBCPRE, &#10;  OXLINE.OBHAFE, &#10;  OXLINE.OBCAWE, &#10;  OXLINE.OBWHSL, &#10;  OXLINE.OBBANO, &#10;  OXLINE.OBCAMU, &#10;  OXLINE.OBADID, &#10;  OXLINE.OBROUT, &#10;  OXLINE.OBRODN, &#10;  OXLINE.OBDSDT, &#10;  OXLINE.OBDSHM, &#10;  OXLINE.OBDSTX, &#10;  OXLINE.OBDEFC, &#10;  OXLINE.OBPLDT, &#10;  OXLINE.OBPLHM, &#10;  OXLINE.OBSRCD, &#10;  OXLINE.OBSPLC, &#10;  OXLINE.OBDLBU, &#10;  OXLINE.OBSPOS, &#10;  OXLINE.OBFDED, &#10;  OXLINE.OBLDED, &#10;  OXLINE.OBAETY, &#10;  OXLINE.OBATNR, &#10;  OXLINE.OBSCMO, &#10;  OXLINE.OBPRPR, &#10;  OXLINE.OBCINA, &#10;  OXLINE.OBATV1, &#10;  OXLINE.OBATV2, &#10;  OXLINE.OBATV3, &#10;  OXLINE.OBATV4, &#10;  OXLINE.OBATV5, &#10;  OXLINE.OBATV6, &#10;  OXLINE.OBATV7, &#10;  OXLINE.OBATV8, &#10;  OXLINE.OBATV9, &#10;  OXLINE.OBATV0, &#10;  OXLINE.OBCNNR, &#10;  OXLINE.OBMNIN, &#10;  OXLINE.OBREPN, &#10;  OXLINE.OBATPR, &#10;  OXLINE.OBATMO, &#10;  OXLINE.OBORTY, &#10;  OXLINE.OBSUNO, &#10;  OXLINE.OBPUPR, &#10;  OXLINE.OBPUCD, &#10;  OXLINE.OBPPUN, &#10;  OXLINE.OBCUCD, &#10;  OXLINE.OBODI1, &#10;  OXLINE.OBODI2, &#10;  OXLINE.OBODI3, &#10;  OXLINE.OBOURR, &#10;  OXLINE.OBOURT, &#10;  OXLINE.OBBUYE, &#10;  OXLINE.OBFWHL, &#10;  OXLINE.OBPRNO, &#10;  OXLINE.OBSCHN, &#10;  OXLINE.OBMODL, &#10;  OXLINE.OBTEDL, &#10;  OXLINE.OBTEL2, &#10;  OXLINE.OBRGDT, &#10;  OXLINE.OBRGTM, &#10;  OXLINE.OBLMDT, &#10;  OXLINE.OBCHNO, &#10;  OXLINE.OBCHID, &#10;  OXLINE.OBRORX, &#10;  OXLINE.OBLMTS, &#10;  OXLINE.OBRTQA, &#10;  OXLINE.OBRTQT, &#10;  OXLINE.OBPRHL, &#10;  OXLINE.OBSERN, &#10;  OXLINE.OBCTNO, &#10;  OXLINE.OBAPBA, &#10;  OXLINE.OBCFGL, &#10;  OXLINE.OBWATP, &#10;  OXLINE.OBGWTP, &#10;  OXLINE.OBPRHW, &#10;  OXLINE.OBSERW, &#10;  OXLINE.OBPWNR, &#10;  OXLINE.OBPWSX, &#10;  OXLINE.OBEWST, &#10;  OXLINE.OBAGNB, &#10;  OXLINE.OBCTNS, &#10;  OXLINE.OBWATQ, &#10;  OXLINE.OBTECN, &#10;  OXLINE.OBINAP, &#10;  OXLINE.OBPCNR, &#10;  OXLINE.OBPCSU, &#10;  OXLINE.OBRELI, &#10;  OXLINE.OBPIDE, &#10;  OXLINE.OBPCLA, &#10;  OXLINE.OBBOP1, &#10;  OXLINE.OBSCLB, &#10;  OXLINE.OBOFNO, &#10;  OXLINE.OBVERS, &#10;  OXLINE.OBOFNR, &#10;  OXLINE.OBOFSX, &#10;  OXLINE.OBDECU, &#10;  OXLINE.OBTEPY, &#10;  OXLINE.OBARST, &#10;  OXLINE.OBRSC1, &#10;  OXLINE.OBPMOR, &#10;  OXLINE.OBCBSM, &#10;  OXLINE.OBINIP, &#10;  OXLINE.OBUPAV, &#10;  OXLINE.OBQTBC, &#10;  OXLINE.OBMPID, &#10;  OXLINE.OBTOMU, &#10;  OXLINE.OBENNO, &#10;  OXLINE.OBLNCL, &#10;  OXLINE.OBPRIO, &#10;  OXLINE.OBCCSA, &#10;  OXLINE.OBRAGN, &#10;  OXLINE.OBRASN, &#10;  OXLINE.OBCLAT, &#10;  OXLINE.OBMIGI&#10;FROM OXLINE&#13;&#10;WHERE OBCONO=510 and OBORNO='0030477335'&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="as400_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.M3_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCONO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIVI"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBORNO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPONR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPOSX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBLTYP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBORST"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBFACI"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBWHLO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBITNO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBREPI"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBITDS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBTEDS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBORQT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBORQA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRNQT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRNQA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBALQT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBALQA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPLQT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPLQA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDLQT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDLQA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBIVQT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBIVQA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDCCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBALUN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDCCA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCOFA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDMCF"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSPUN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPCOF"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDCCS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCOFS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDMCS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPOPN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBALWT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBALWQ"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSAPR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBNEPR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSACD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPRMO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIC1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIC2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIC3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIC4"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIC5"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIC6"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIP1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIP2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIP3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIP4"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIP5"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIP6"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIA1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIA2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIA3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIA4"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIA5"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIA6"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCMP1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCMP2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCMP3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCMP4"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCMP5"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCMP6"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIBE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDIRE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDCHA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDPST"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDDSU"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBIDSC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBACRF"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBOTDI"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDWDT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDWHM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCODT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCOHM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDWDZ"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDWHZ"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCODZ"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCOHZ"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBTIZO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDLTS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSTCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPRCH"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRORC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRORN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRORL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBUCOS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCOCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBUCCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCMNO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBHDPR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCFIN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBECVS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBVTCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBJDCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDLSP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBLNAM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBLNA2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDINR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDISX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBAGNO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBBAGC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBBAGD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBAGLN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPRRF"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBNTCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCNQT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBEDFP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSMCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBBNCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPRAC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBVRCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBECLC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBORCO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPRTX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPOTX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDTID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDELS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBE0PA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDSGP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBMOYE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPUSN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPUTP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBQTQL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBTEPA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPACT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCUPA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBD1QT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCUNO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCUOR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCUPO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCUSX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSMCC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRSCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBMUFT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBINPR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCUCT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBABNO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPROJ"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBELNO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBBPAT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBBPST"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBNOAA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCPRE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBHAFE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCAWE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBWHSL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBBANO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCAMU"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBADID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBROUT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRODN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDSDT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDSHM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDSTX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDEFC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPLDT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPLHM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSRCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSPLC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDLBU"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSPOS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBFDED"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBLDED"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBAETY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBATNR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSCMO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPRPR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCINA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBATV1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBATV2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBATV3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBATV4"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBATV5"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBATV6"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBATV7"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBATV8"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBATV9"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBATV0"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCNNR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBMNIN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBREPN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBATPR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBATMO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBORTY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSUNO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPUPR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPUCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPPUN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCUCD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBODI1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBODI2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBODI3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBOURR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBOURT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBBUYE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBFWHL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPRNO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSCHN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBMODL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBTEDL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBTEL2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRGDT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRGTM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBLMDT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCHNO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCHID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRORX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBLMTS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRTQA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRTQT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPRHL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSERN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCTNO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBAPBA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCFGL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBWATP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBGWTP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPRHW"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSERW"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPWNR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPWSX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBEWST"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBAGNB"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCTNS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBWATQ"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBTECN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBINAP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPCNR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPCSU"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRELI"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPIDE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPCLA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBBOP1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBSCLB"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBOFNO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBVERS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBOFNR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBOFSX"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBDECU"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBTEPY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBARST"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRSC1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPMOR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCBSM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBINIP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBUPAV"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBQTBC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBMPID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBTOMU"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBENNO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBLNCL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPRIO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCCSA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRAGN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBRASN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCLAT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBMIGI"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="OXLINE" name="tDBInput_1">
+      <column comment="Company" defaultValue="0" key="false" length="3" name="OBCONO" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Company"/>
+      </column>
+      <column comment="Division" defaultValue="''" key="false" length="3" name="OBDIVI" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Division"/>
+      </column>
+      <column comment="Customer order number" defaultValue="''" key="false" length="10" name="OBORNO" nullable="true" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Customer order number"/>
+      </column>
+      <column comment="Order line number" defaultValue="0" key="false" length="5" name="OBPONR" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Order line number"/>
+      </column>
+      <column comment="Line suffix" defaultValue="0" key="false" length="3" name="OBPOSX" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Line suffix"/>
+      </column>
+      <column comment="Line type" defaultValue="''" key="false" length="1" name="OBLTYP" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Line type"/>
+      </column>
+      <column comment="Highest status - customer order" defaultValue="''" key="false" length="2" name="OBORST" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Highest status - customer order"/>
+      </column>
+      <column comment="Facility" defaultValue="''" key="false" length="3" name="OBFACI" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Facility"/>
+      </column>
+      <column comment="Warehouse" defaultValue="''" key="false" length="3" name="OBWHLO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Warehouse"/>
+      </column>
+      <column comment="Item number" defaultValue="''" key="false" length="15" name="OBITNO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Item number"/>
+      </column>
+      <column comment="Replaced item number" defaultValue="''" key="false" length="15" name="OBREPI" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Replaced item number"/>
+      </column>
+      <column comment="Name" defaultValue="''" key="false" length="30" name="OBITDS" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Name"/>
+      </column>
+      <column comment="Description 1" defaultValue="''" key="false" length="60" name="OBTEDS" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Description 1"/>
+      </column>
+      <column comment="Ordered quantity - basic U/M" defaultValue="0" key="false" length="15" name="OBORQT" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Ordered quantity - basic U/M"/>
+      </column>
+      <column comment="Ordered quantity - alternate U/M" defaultValue="0" key="false" length="15" name="OBORQA" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Ordered quantity - alternate U/M"/>
+      </column>
+      <column comment="Remaining quantity - basic U/M" defaultValue="0" key="false" length="15" name="OBRNQT" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Remaining quantity - basic U/M"/>
+      </column>
+      <column comment="Remaining quantity - alternate U/M" defaultValue="0" key="false" length="15" name="OBRNQA" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Remaining quantity - alternate U/M"/>
+      </column>
+      <column comment="Allocated quantity - basic U/M" defaultValue="0" key="false" length="15" name="OBALQT" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Allocated quantity - basic U/M"/>
+      </column>
+      <column comment="Allocated quantity - alternate U/M" defaultValue="0" key="false" length="15" name="OBALQA" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Allocated quantity - alternate U/M"/>
+      </column>
+      <column comment="Picking list quantity - basic U/M" defaultValue="0" key="false" length="15" name="OBPLQT" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Picking list quantity - basic U/M"/>
+      </column>
+      <column comment="Picking list quantity - alternate U/M" defaultValue="0" key="false" length="15" name="OBPLQA" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Picking list quantity - alternate U/M"/>
+      </column>
+      <column comment="Delivered quantity - basic U/M" defaultValue="0" key="false" length="15" name="OBDLQT" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Delivered quantity - basic U/M"/>
+      </column>
+      <column comment="Delivered quantity - alternate U/M" defaultValue="0" key="false" length="15" name="OBDLQA" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Delivered quantity - alternate U/M"/>
+      </column>
+      <column comment="Invoiced quantity - basic U/M" defaultValue="0" key="false" length="15" name="OBIVQT" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Invoiced quantity - basic U/M"/>
+      </column>
+      <column comment="Invoiced quantity - alternate U/M" defaultValue="0" key="false" length="15" name="OBIVQA" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Invoiced quantity - alternate U/M"/>
+      </column>
+      <column comment="Number of decimal places" defaultValue="0" key="false" length="1" name="OBDCCD" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Number of decimal places"/>
+      </column>
+      <column comment="Alternate U/M" defaultValue="''" key="false" length="3" name="OBALUN" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Alternate U/M"/>
+      </column>
+      <column comment="Number of decimal places - alternate U/M" defaultValue="0" key="false" length="1" name="OBDCCA" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Number of decimal places - alternate U/M"/>
+      </column>
+      <column comment="Conversion factor" defaultValue="0" key="false" length="15" name="OBCOFA" nullable="false" pattern="" precision="9" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Conversion factor"/>
+      </column>
+      <column comment="Conversion form" defaultValue="0" key="false" length="1" name="OBDMCF" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Conversion form"/>
+      </column>
+      <column comment="Sales price unit of measure" defaultValue="''" key="false" length="3" name="OBSPUN" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Sales price unit of measure"/>
+      </column>
+      <column comment="Price adjustment factor" defaultValue="0" key="false" length="15" name="OBPCOF" nullable="false" pattern="" precision="9" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Price adjustment factor"/>
+      </column>
+      <column comment="Number of decimal places - sales prc U/M" defaultValue="0" key="false" length="1" name="OBDCCS" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Number of decimal places - sales prc U/M"/>
+      </column>
+      <column comment="Conversion factor - sales price U/M" defaultValue="0" key="false" length="15" name="OBCOFS" nullable="false" pattern="" precision="9" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Conversion factor - sales price U/M"/>
+      </column>
+      <column comment="Conversion method - sales price U/M" defaultValue="0" key="false" length="1" name="OBDMCS" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Conversion method - sales price U/M"/>
+      </column>
+      <column comment="Alias number" defaultValue="''" key="false" length="30" name="OBPOPN" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Alias number"/>
+      </column>
+      <column comment="Alias category" defaultValue="0" key="false" length="2" name="OBALWT" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Alias category"/>
+      </column>
+      <column comment="Alias qualifier" defaultValue="''" key="false" length="4" name="OBALWQ" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Alias qualifier"/>
+      </column>
+      <column comment="Sales price" defaultValue="0" key="false" length="17" name="OBSAPR" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Sales price"/>
+      </column>
+      <column comment="Net price" defaultValue="0" key="false" length="17" name="OBNEPR" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Net price"/>
+      </column>
+      <column comment="Sales price quantity" defaultValue="0" key="false" length="5" name="OBSACD" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Sales price quantity"/>
+      </column>
+      <column comment="Price origin" defaultValue="''" key="false" length="1" name="OBPRMO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Price origin"/>
+      </column>
+      <column comment="Status - discount" defaultValue="0" key="false" length="1" name="OBDIC1" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Status - discount"/>
+      </column>
+      <column comment="Status - discount" defaultValue="0" key="false" length="1" name="OBDIC2" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Status - discount"/>
+      </column>
+      <column comment="Status - discount" defaultValue="0" key="false" length="1" name="OBDIC3" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Status - discount"/>
+      </column>
+      <column comment="Status - discount" defaultValue="0" key="false" length="1" name="OBDIC4" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Status - discount"/>
+      </column>
+      <column comment="Status - discount" defaultValue="0" key="false" length="1" name="OBDIC5" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Status - discount"/>
+      </column>
+      <column comment="Status - discount" defaultValue="0" key="false" length="1" name="OBDIC6" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Status - discount"/>
+      </column>
+      <column comment="Discount 1" defaultValue="0" key="false" length="5" name="OBDIP1" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount 1"/>
+      </column>
+      <column comment="Discount 2" defaultValue="0" key="false" length="5" name="OBDIP2" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount 2"/>
+      </column>
+      <column comment="Discount 3" defaultValue="0" key="false" length="5" name="OBDIP3" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount 3"/>
+      </column>
+      <column comment="Discount 4" defaultValue="0" key="false" length="5" name="OBDIP4" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount 4"/>
+      </column>
+      <column comment="Discount 5" defaultValue="0" key="false" length="5" name="OBDIP5" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount 5"/>
+      </column>
+      <column comment="Discount 6" defaultValue="0" key="false" length="5" name="OBDIP6" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount 6"/>
+      </column>
+      <column comment="Discount amount 1" defaultValue="0" key="false" length="17" name="OBDIA1" nullable="false" pattern="" precision="4" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount amount 1"/>
+      </column>
+      <column comment="Discount amount 2" defaultValue="0" key="false" length="17" name="OBDIA2" nullable="false" pattern="" precision="4" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount amount 2"/>
+      </column>
+      <column comment="Discount amount 3" defaultValue="0" key="false" length="17" name="OBDIA3" nullable="false" pattern="" precision="4" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount amount 3"/>
+      </column>
+      <column comment="Discount amount 4" defaultValue="0" key="false" length="17" name="OBDIA4" nullable="false" pattern="" precision="4" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount amount 4"/>
+      </column>
+      <column comment="Discount amount 5" defaultValue="0" key="false" length="17" name="OBDIA5" nullable="false" pattern="" precision="4" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount amount 5"/>
+      </column>
+      <column comment="Discount amount 6" defaultValue="0" key="false" length="17" name="OBDIA6" nullable="false" pattern="" precision="4" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount amount 6"/>
+      </column>
+      <column comment="Statistics identity - discount 1" defaultValue="''" key="false" length="4" name="OBCMP1" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Statistics identity - discount 1"/>
+      </column>
+      <column comment="Statistics identity - discount 2" defaultValue="''" key="false" length="4" name="OBCMP2" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Statistics identity - discount 2"/>
+      </column>
+      <column comment="Statistics identity - discount 3" defaultValue="''" key="false" length="4" name="OBCMP3" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Statistics identity - discount 3"/>
+      </column>
+      <column comment="Statistics identity - discount 4" defaultValue="''" key="false" length="4" name="OBCMP4" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Statistics identity - discount 4"/>
+      </column>
+      <column comment="Statistics identity - discount 5" defaultValue="''" key="false" length="4" name="OBCMP5" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Statistics identity - discount 5"/>
+      </column>
+      <column comment="Statistics identity - discount 6" defaultValue="''" key="false" length="4" name="OBCMP6" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Statistics identity - discount 6"/>
+      </column>
+      <column comment="Discount base" defaultValue="''" key="false" length="1" name="OBDIBE" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Discount base"/>
+      </column>
+      <column comment="Discount relation" defaultValue="''" key="false" length="1" name="OBDIRE" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Discount relation"/>
+      </column>
+      <column comment="Manually changeable discount" defaultValue="0" key="false" length="1" name="OBDCHA" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Manually changeable discount"/>
+      </column>
+      <column comment="Statistics field for discount" defaultValue="0" key="false" length="1" name="OBDPST" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Statistics field for discount"/>
+      </column>
+      <column comment="Discount presentation" defaultValue="0" key="false" length="1" name="OBDDSU" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount presentation"/>
+      </column>
+      <column comment="Internal discount" defaultValue="0" key="false" length="1" name="OBIDSC" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Internal discount"/>
+      </column>
+      <column comment="User-defined accounting control object" defaultValue="''" key="false" length="8" name="OBACRF" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="User-defined accounting control object"/>
+      </column>
+      <column comment="Order total discount generating" defaultValue="0" key="false" length="1" name="OBOTDI" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Order total discount generating"/>
+      </column>
+      <column comment="Requested delivery date" defaultValue="0" key="false" length="8" name="OBDWDT" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value="Requested delivery date"/>
+      </column>
+      <column comment="Requested delivery time" defaultValue="0" key="false" length="4" name="OBDWHM" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Requested delivery time"/>
+      </column>
+      <column comment="Confirmed delivery date" defaultValue="0" key="false" length="8" name="OBCODT" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Confirmed delivery date"/>
+      </column>
+      <column comment="Confirmed delivery time" defaultValue="0" key="false" length="4" name="OBCOHM" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Confirmed delivery time"/>
+      </column>
+      <column comment="Requested delivery date" defaultValue="0" key="false" length="8" name="OBDWDZ" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Requested delivery date"/>
+      </column>
+      <column comment="Requested delivery time" defaultValue="0" key="false" length="4" name="OBDWHZ" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Requested delivery time"/>
+      </column>
+      <column comment="Confirmed delivery date" defaultValue="0" key="false" length="8" name="OBCODZ" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Confirmed delivery date"/>
+      </column>
+      <column comment="Confirmed delivery time" defaultValue="0" key="false" length="4" name="OBCOHZ" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Confirmed delivery time"/>
+      </column>
+      <column comment="Time zone" defaultValue="''" key="false" length="5" name="OBTIZO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Time zone"/>
+      </column>
+      <column comment="Delivery time slot" defaultValue="0" key="false" length="4" name="OBDLTS" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Delivery time slot"/>
+      </column>
+      <column comment="Inventory accounting" defaultValue="0" key="false" length="1" name="OBSTCD" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Inventory accounting"/>
+      </column>
+      <column comment="Price adjustment line" defaultValue="0" key="false" length="1" name="OBPRCH" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Price adjustment line"/>
+      </column>
+      <column comment="Reference order category" defaultValue="0" key="false" length="1" name="OBRORC" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Reference order category"/>
+      </column>
+      <column comment="Reference order number" defaultValue="''" key="false" length="10" name="OBRORN" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Reference order number"/>
+      </column>
+      <column comment="Reference order line" defaultValue="0" key="false" length="6" name="OBRORL" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Reference order line"/>
+      </column>
+      <column comment="Cost price" defaultValue="0" key="false" length="17" name="OBUCOS" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Cost price"/>
+      </column>
+      <column comment="Item cost quantity" defaultValue="0" key="false" length="5" name="OBCOCD" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Item cost quantity"/>
+      </column>
+      <column comment="Standard cost code" defaultValue="0" key="false" length="1" name="OBUCCD" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Standard cost code"/>
+      </column>
+      <column comment="Sales campaign" defaultValue="''" key="false" length="4" name="OBCMNO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Sales campaign"/>
+      </column>
+      <column comment="Main product" defaultValue="''" key="false" length="15" name="OBHDPR" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Main product"/>
+      </column>
+      <column comment="Configuration number" defaultValue="0" key="false" length="10" name="OBCFIN" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Configuration number"/>
+      </column>
+      <column comment="Simulation round" defaultValue="0" key="false" length="3" name="OBECVS" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Simulation round"/>
+      </column>
+      <column comment="VAT code" defaultValue="0" key="false" length="2" name="OBVTCD" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="VAT code"/>
+      </column>
+      <column comment="Joint delivery" defaultValue="''" key="false" length="5" name="OBJDCD" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Joint delivery"/>
+      </column>
+      <column comment="Delivery specification" defaultValue="''" key="false" length="12" name="OBDLSP" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Delivery specification"/>
+      </column>
+      <column comment="Line amount - order currency" defaultValue="0" key="false" length="15" name="OBLNAM" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Line amount - order currency"/>
+      </column>
+      <column comment="Line amount 2" defaultValue="0" key="false" length="15" name="OBLNA2" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Line amount 2"/>
+      </column>
+      <column comment="Order line number" defaultValue="0" key="false" length="5" name="OBDINR" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Order line number"/>
+      </column>
+      <column comment="Discount in kind line suffix" defaultValue="0" key="false" length="3" name="OBDISX" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount in kind line suffix"/>
+      </column>
+      <column comment="Blanket agreement number" defaultValue="''" key="false" length="7" name="OBAGNO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Blanket agreement number"/>
+      </column>
+      <column comment="Customer - blanket agreement" defaultValue="''" key="false" length="10" name="OBBAGC" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Customer - blanket agreement"/>
+      </column>
+      <column comment="Start date - blanket agreement" defaultValue="0" key="false" length="8" name="OBBAGD" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Start date - blanket agreement"/>
+      </column>
+      <column comment="Sequence number" defaultValue="0" key="false" length="7" name="OBAGLN" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Sequence number"/>
+      </column>
+      <column comment="Price list" defaultValue="''" key="false" length="10" name="OBPRRF" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Price list"/>
+      </column>
+      <column comment="Net price used" defaultValue="0" key="false" length="1" name="OBNTCD" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Net price used"/>
+      </column>
+      <column comment="Quantity" defaultValue="0" key="false" length="15" name="OBCNQT" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Quantity"/>
+      </column>
+      <column comment="EDIFACT price" defaultValue="0" key="false" length="17" name="OBEDFP" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="EDIFACT price"/>
+      </column>
+      <column comment="Salesperson" defaultValue="''" key="false" length="10" name="OBSMCD" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Salesperson"/>
+      </column>
+      <column comment="Bonus generating" defaultValue="0" key="false" length="1" name="OBBNCD" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Bonus generating"/>
+      </column>
+      <column comment="Commission generating" defaultValue="0" key="false" length="1" name="OBPRAC" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Commission generating"/>
+      </column>
+      <column comment="Business type - trade statistics (TST)" defaultValue="''" key="false" length="2" name="OBVRCD" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Business type - trade statistics (TST)"/>
+      </column>
+      <column comment="Labor code - trade statistics (TST)" defaultValue="''" key="false" length="2" name="OBECLC" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Labor code - trade statistics (TST)"/>
+      </column>
+      <column comment="Country of origin" defaultValue="''" key="false" length="3" name="OBORCO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Country of origin"/>
+      </column>
+      <column comment="Text identity" defaultValue="0" key="false" length="13" name="OBPRTX" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Text identity"/>
+      </column>
+      <column comment="Text identity" defaultValue="0" key="false" length="13" name="OBPOTX" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Text identity"/>
+      </column>
+      <column comment="Data identity" defaultValue="0" key="false" length="13" name="OBDTID" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Data identity"/>
+      </column>
+      <column comment="Delivery schedule order" defaultValue="0" key="false" length="1" name="OBDELS" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Delivery schedule order"/>
+      </column>
+      <column comment="Partner" defaultValue="''" key="false" length="17" name="OBE0PA" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Partner"/>
+      </column>
+      <column comment="Delivery schedule group" defaultValue="''" key="false" length="2" name="OBDSGP" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Delivery schedule group"/>
+      </column>
+      <column comment="Model/year" defaultValue="''" key="false" length="15" name="OBMOYE" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Model/year"/>
+      </column>
+      <column comment="Delivery note reference" defaultValue="''" key="false" length="17" name="OBPUSN" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Delivery note reference"/>
+      </column>
+      <column comment="Delivery note reference qualifier" defaultValue="0" key="false" length="1" name="OBPUTP" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Delivery note reference qualifier"/>
+      </column>
+      <column comment="Demand bucket" defaultValue="0" key="false" length="1" name="OBQTQL" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Demand bucket"/>
+      </column>
+      <column comment="Packaging terms" defaultValue="''" key="false" length="3" name="OBTEPA" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Packaging terms"/>
+      </column>
+      <column comment="Packaging" defaultValue="''" key="false" length="6" name="OBPACT" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Packaging"/>
+      </column>
+      <column comment="Customer´s packaging identity" defaultValue="''" key="false" length="20" name="OBCUPA" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Customer´s packaging identity"/>
+      </column>
+      <column comment="Standard quantity" defaultValue="0" key="false" length="15" name="OBD1QT" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Standard quantity"/>
+      </column>
+      <column comment="Customer" defaultValue="''" key="false" length="10" name="OBCUNO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Customer"/>
+      </column>
+      <column comment="Customer´s order number" defaultValue="''" key="false" length="20" name="OBCUOR" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Customer´s order number"/>
+      </column>
+      <column comment="Order line number" defaultValue="0" key="false" length="7" name="OBCUPO" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Order line number"/>
+      </column>
+      <column comment="Line suffix" defaultValue="0" key="false" length="3" name="OBCUSX" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Line suffix"/>
+      </column>
+      <column comment="Contribution margin check" defaultValue="0" key="false" length="1" name="OBSMCC" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Contribution margin check"/>
+      </column>
+      <column comment="Transaction reason" defaultValue="''" key="false" length="3" name="OBRSCD" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Transaction reason"/>
+      </column>
+      <column comment="MUC trigger" defaultValue="0" key="false" length="2" name="OBMUFT" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="MUC trigger"/>
+      </column>
+      <column comment="Internal transfer price" defaultValue="0" key="false" length="17" name="OBINPR" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Internal transfer price"/>
+      </column>
+      <column comment="Internal transfer currency" defaultValue="''" key="false" length="3" name="OBCUCT" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Internal transfer currency"/>
+      </column>
+      <column comment="Abnormal demand" defaultValue="0" key="false" length="1" name="OBABNO" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Abnormal demand"/>
+      </column>
+      <column comment="Project number" defaultValue="''" key="false" length="7" name="OBPROJ" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Project number"/>
+      </column>
+      <column comment="Project element" defaultValue="''" key="false" length="8" name="OBELNO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Project element"/>
+      </column>
+      <column comment="Buying pattern" defaultValue="''" key="false" length="6" name="OBBPAT" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Buying pattern"/>
+      </column>
+      <column comment="Status - buying pattern" defaultValue="0" key="false" length="1" name="OBBPST" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Status - buying pattern"/>
+      </column>
+      <column comment="Overriding allocation method" defaultValue="0" key="false" length="1" name="OBNOAA" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Overriding allocation method"/>
+      </column>
+      <column comment="Customs procedure - export" defaultValue="''" key="false" length="5" name="OBCPRE" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Customs procedure - export"/>
+      </column>
+      <column comment="Harbor or airport" defaultValue="''" key="false" length="6" name="OBHAFE" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Harbor or airport"/>
+      </column>
+      <column comment="Catch weight" defaultValue="0" key="false" length="15" name="OBCAWE" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Catch weight"/>
+      </column>
+      <column comment="Location" defaultValue="''" key="false" length="10" name="OBWHSL" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Location"/>
+      </column>
+      <column comment="Lot number" defaultValue="''" key="false" length="20" name="OBBANO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Lot number"/>
+      </column>
+      <column comment="Container" defaultValue="''" key="false" length="20" name="OBCAMU" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Container"/>
+      </column>
+      <column comment="Address number" defaultValue="''" key="false" length="6" name="OBADID" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Address number"/>
+      </column>
+      <column comment="Route" defaultValue="''" key="false" length="6" name="OBROUT" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Route"/>
+      </column>
+      <column comment="Route departure" defaultValue="0" key="false" length="3" name="OBRODN" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Route departure"/>
+      </column>
+      <column comment="Departure date" defaultValue="0" key="false" length="8" name="OBDSDT" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Departure date"/>
+      </column>
+      <column comment="Departure time" defaultValue="0" key="false" length="4" name="OBDSHM" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Departure time"/>
+      </column>
+      <column comment="Description" defaultValue="''" key="false" length="36" name="OBDSTX" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Description"/>
+      </column>
+      <column comment="Demand factor" defaultValue="0" key="false" length="3" name="OBDEFC" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Demand factor"/>
+      </column>
+      <column comment="Planning date" defaultValue="0" key="false" length="8" name="OBPLDT" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Planning date"/>
+      </column>
+      <column comment="Planning time" defaultValue="0" key="false" length="4" name="OBPLHM" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Planning time"/>
+      </column>
+      <column comment="Reservation level" defaultValue="0" key="false" length="1" name="OBSRCD" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Reservation level"/>
+      </column>
+      <column comment="Delivery split rule" defaultValue="''" key="false" length="2" name="OBSPLC" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Delivery split rule"/>
+      </column>
+      <column comment="Shipping period" defaultValue="0" key="false" length="1" name="OBDLBU" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Shipping period"/>
+      </column>
+      <column comment="Line number" defaultValue="0" key="false" length="3" name="OBSPOS" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Line number"/>
+      </column>
+      <column comment="First delivery date" defaultValue="0" key="false" length="8" name="OBFDED" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="First delivery date"/>
+      </column>
+      <column comment="Last delivery" defaultValue="0" key="false" length="8" name="OBLDED" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Last delivery"/>
+      </column>
+      <column comment="Order line address type" defaultValue="0" key="false" length="1" name="OBAETY" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Order line address type"/>
+      </column>
+      <column comment="Attribute number" defaultValue="0" key="false" length="17" name="OBATNR" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Attribute number"/>
+      </column>
+      <column comment="Costing model - sales price" defaultValue="''" key="false" length="6" name="OBSCMO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Costing model - sales price"/>
+      </column>
+      <column comment="Preliminary price" defaultValue="0" key="false" length="1" name="OBPRPR" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Preliminary price"/>
+      </column>
+      <column comment="Create cost accounting transactions" defaultValue="0" key="false" length="1" name="OBCINA" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Create cost accounting transactions"/>
+      </column>
+      <column comment="Attribute value - display field 1" defaultValue="0" key="false" length="15" name="OBATV1" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Attribute value - display field 1"/>
+      </column>
+      <column comment="Attribute value - display field 2" defaultValue="0" key="false" length="15" name="OBATV2" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Attribute value - display field 2"/>
+      </column>
+      <column comment="Attribute value - display field 3" defaultValue="0" key="false" length="15" name="OBATV3" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Attribute value - display field 3"/>
+      </column>
+      <column comment="Attribute value - display field 4" defaultValue="0" key="false" length="15" name="OBATV4" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Attribute value - display field 4"/>
+      </column>
+      <column comment="Attribute value - display field 5" defaultValue="0" key="false" length="15" name="OBATV5" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Attribute value - display field 5"/>
+      </column>
+      <column comment="Attribute value - display field 6" defaultValue="''" key="false" length="15" name="OBATV6" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Attribute value - display field 6"/>
+      </column>
+      <column comment="Attribute value - display field 7" defaultValue="''" key="false" length="15" name="OBATV7" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Attribute value - display field 7"/>
+      </column>
+      <column comment="Attribute value - display field 8" defaultValue="''" key="false" length="15" name="OBATV8" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Attribute value - display field 8"/>
+      </column>
+      <column comment="Attribute value - display field 9" defaultValue="''" key="false" length="15" name="OBATV9" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Attribute value - display field 9"/>
+      </column>
+      <column comment="Attribute value - display field 10" defaultValue="''" key="false" length="15" name="OBATV0" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Attribute value - display field 10"/>
+      </column>
+      <column comment="Detailed order requirement (DOR) number" defaultValue="0" key="false" length="11" name="OBCNNR" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Detailed order requirement (DOR) number"/>
+      </column>
+      <column comment="Main U/M indicator" defaultValue="''" key="false" length="1" name="OBMNIN" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Main U/M indicator"/>
+      </column>
+      <column comment="Receiving number" defaultValue="0" key="false" length="10" name="OBREPN" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Receiving number"/>
+      </column>
+      <column comment="Attribute pricing rule" defaultValue="''" key="false" length="1" name="OBATPR" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Attribute pricing rule"/>
+      </column>
+      <column comment="Attribute model" defaultValue="''" key="false" length="10" name="OBATMO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Attribute model"/>
+      </column>
+      <column comment="Order type" defaultValue="''" key="false" length="3" name="OBORTY" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Order type"/>
+      </column>
+      <column comment="Supplier" defaultValue="''" key="false" length="10" name="OBSUNO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Supplier"/>
+      </column>
+      <column comment="Purchase price" defaultValue="0" key="false" length="17" name="OBPUPR" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Purchase price"/>
+      </column>
+      <column comment="Purchase price quantity" defaultValue="0" key="false" length="5" name="OBPUCD" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Purchase price quantity"/>
+      </column>
+      <column comment="Purchase price U/M" defaultValue="''" key="false" length="3" name="OBPPUN" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Purchase price U/M"/>
+      </column>
+      <column comment="Currency" defaultValue="''" key="false" length="3" name="OBCUCD" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Currency"/>
+      </column>
+      <column comment="Discount 1" defaultValue="0" key="false" length="5" name="OBODI1" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount 1"/>
+      </column>
+      <column comment="Discount 2" defaultValue="0" key="false" length="5" name="OBODI2" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount 2"/>
+      </column>
+      <column comment="Discount 3" defaultValue="0" key="false" length="5" name="OBODI3" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Discount 3"/>
+      </column>
+      <column comment="Our reference number" defaultValue="''" key="false" length="10" name="OBOURR" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Our reference number"/>
+      </column>
+      <column comment="Reference type" defaultValue="''" key="false" length="1" name="OBOURT" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Reference type"/>
+      </column>
+      <column comment="Buyer" defaultValue="''" key="false" length="10" name="OBBUYE" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Buyer"/>
+      </column>
+      <column comment="From warehouse" defaultValue="''" key="false" length="3" name="OBFWHL" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="From warehouse"/>
+      </column>
+      <column comment="Product" defaultValue="''" key="false" length="15" name="OBPRNO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Product"/>
+      </column>
+      <column comment="Schedule number" defaultValue="0" key="false" length="11" name="OBSCHN" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Schedule number"/>
+      </column>
+      <column comment="Delivery method" defaultValue="''" key="false" length="3" name="OBMODL" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Delivery method"/>
+      </column>
+      <column comment="Delivery terms" defaultValue="''" key="false" length="3" name="OBTEDL" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Delivery terms"/>
+      </column>
+      <column comment="Terms text" defaultValue="''" key="false" length="36" name="OBTEL2" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Terms text"/>
+      </column>
+      <column comment="Entry date" defaultValue="0" key="false" length="8" name="OBRGDT" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Entry date"/>
+      </column>
+      <column comment="Entry time" defaultValue="0" key="false" length="6" name="OBRGTM" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Entry time"/>
+      </column>
+      <column comment="Change date" defaultValue="0" key="false" length="8" name="OBLMDT" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Change date"/>
+      </column>
+      <column comment="Change number" defaultValue="0" key="false" length="3" name="OBCHNO" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Change number"/>
+      </column>
+      <column comment="Changed by" defaultValue="''" key="false" length="10" name="OBCHID" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Changed by"/>
+      </column>
+      <column comment="Line suffix" defaultValue="0" key="false" length="3" name="OBRORX" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Line suffix"/>
+      </column>
+      <column comment="Timestamp" defaultValue="0" key="false" length="18" name="OBLMTS" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Timestamp"/>
+      </column>
+      <column comment="Returned quantity - alternate U/M" defaultValue="0" key="false" length="15" name="OBRTQA" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Returned quantity - alternate U/M"/>
+      </column>
+      <column comment="Returned quantity - basic U/M" defaultValue="0" key="false" length="15" name="OBRTQT" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Returned quantity - basic U/M"/>
+      </column>
+      <column comment="Product number highest level" defaultValue="''" key="false" length="15" name="OBPRHL" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Product number highest level"/>
+      </column>
+      <column comment="Serial number" defaultValue="''" key="false" length="20" name="OBSERN" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Serial number"/>
+      </column>
+      <column comment="Agreement number" defaultValue="''" key="false" length="10" name="OBCTNO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Agreement number"/>
+      </column>
+      <column comment="Material price method" defaultValue="0" key="false" length="1" name="OBAPBA" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Material price method"/>
+      </column>
+      <column comment="Position" defaultValue="''" key="false" length="15" name="OBCFGL" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Position"/>
+      </column>
+      <column comment="Warranty type" defaultValue="''" key="false" length="10" name="OBWATP" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Warranty type"/>
+      </column>
+      <column comment="Granted warranty type" defaultValue="''" key="false" length="10" name="OBGWTP" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Granted warranty type"/>
+      </column>
+      <column comment="Product number highest level" defaultValue="''" key="false" length="15" name="OBPRHW" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Product number highest level"/>
+      </column>
+      <column comment="Serial number" defaultValue="''" key="false" length="20" name="OBSERW" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Serial number"/>
+      </column>
+      <column comment="Order line number" defaultValue="0" key="false" length="5" name="OBPWNR" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Order line number"/>
+      </column>
+      <column comment="Line suffix" defaultValue="0" key="false" length="3" name="OBPWSX" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Line suffix"/>
+      </column>
+      <column comment="Extended warranty start" defaultValue="0" key="false" length="1" name="OBEWST" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Extended warranty start"/>
+      </column>
+      <column comment="Agreement number" defaultValue="''" key="false" length="7" name="OBAGNB" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Agreement number"/>
+      </column>
+      <column comment="Agreement number" defaultValue="''" key="false" length="10" name="OBCTNS" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Agreement number"/>
+      </column>
+      <column comment="Qualified for goodwill" defaultValue="0" key="false" length="1" name="OBWATQ" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Qualified for goodwill"/>
+      </column>
+      <column comment="Tax exemption contract number" defaultValue="''" key="false" length="20" name="OBTECN" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Tax exemption contract number"/>
+      </column>
+      <column comment="Industry application" defaultValue="''" key="false" length="15" name="OBINAP" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Industry application"/>
+      </column>
+      <column comment="Order line number" defaultValue="0" key="false" length="5" name="OBPCNR" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Order line number"/>
+      </column>
+      <column comment="Line suffix" defaultValue="0" key="false" length="3" name="OBPCSU" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Line suffix"/>
+      </column>
+      <column comment="Order line number" defaultValue="0" key="false" length="5" name="OBRELI" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Order line number"/>
+      </column>
+      <column comment="Promotion" defaultValue="''" key="false" length="4" name="OBPIDE" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Promotion"/>
+      </column>
+      <column comment="Supplier rebate" defaultValue="0" key="false" length="17" name="OBPCLA" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Supplier rebate"/>
+      </column>
+      <column comment="Automatic closing" defaultValue="0" key="false" length="1" name="OBBOP1" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Automatic closing"/>
+      </column>
+      <column comment="Supplier rebate base" defaultValue="0" key="false" length="15" name="OBSCLB" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Supplier rebate base"/>
+      </column>
+      <column comment="Quotation number" defaultValue="''" key="false" length="10" name="OBOFNO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Quotation number"/>
+      </column>
+      <column comment="Version" defaultValue="0" key="false" length="2" name="OBVERS" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Version"/>
+      </column>
+      <column comment="Order line number" defaultValue="0" key="false" length="5" name="OBOFNR" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Order line number"/>
+      </column>
+      <column comment="Line suffix" defaultValue="0" key="false" length="3" name="OBOFSX" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Line suffix"/>
+      </column>
+      <column comment="Delivery customer" defaultValue="''" key="false" length="10" name="OBDECU" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Delivery customer"/>
+      </column>
+      <column comment="Payment terms" defaultValue="''" key="false" length="3" name="OBTEPY" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Payment terms"/>
+      </column>
+      <column comment="Action reason type" defaultValue="0" key="false" length="2" name="OBARST" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Action reason type"/>
+      </column>
+      <column comment="Action reason" defaultValue="''" key="false" length="3" name="OBRSC1" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Action reason"/>
+      </column>
+      <column comment="Payment terms origin" defaultValue="0" key="false" length="1" name="OBPMOR" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Payment terms origin"/>
+      </column>
+      <column comment="Created by supply model" defaultValue="0" key="false" length="1" name="OBCBSM" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Created by supply model"/>
+      </column>
+      <column comment="Initial promotion" defaultValue="0" key="false" length="1" name="OBINIP" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Initial promotion"/>
+      </column>
+      <column comment="Update material plan" defaultValue="0" key="false" length="1" name="OBUPAV" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Update material plan"/>
+      </column>
+      <column comment="Quantity to be closed" defaultValue="0" key="false" length="15" name="OBQTBC" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Quantity to be closed"/>
+      </column>
+      <column comment="Manual promotion" defaultValue="0" key="false" length="1" name="OBMPID" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Manual promotion"/>
+      </column>
+      <column comment="Issue multiple" defaultValue="0" key="false" length="15" name="OBTOMU" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Issue multiple"/>
+      </column>
+      <column comment="Entitlement number" defaultValue="''" key="false" length="10" name="OBENNO" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Entitlement number"/>
+      </column>
+      <column comment="Line classification" defaultValue="0" key="false" length="1" name="OBLNCL" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Line classification"/>
+      </column>
+      <column comment="Priority" defaultValue="0" key="false" length="1" name="OBPRIO" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Priority"/>
+      </column>
+      <column comment="Sales price - core charge" defaultValue="0" key="false" length="17" name="OBCCSA" nullable="false" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Sales price - core charge"/>
+      </column>
+      <column comment="Supplier rebate on sales agreement" defaultValue="''" key="false" length="15" name="OBRAGN" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Supplier rebate on sales agreement"/>
+      </column>
+      <column comment="Rail station" defaultValue="''" key="false" length="10" name="OBRASN" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Rail station"/>
+      </column>
+      <column comment="Supplier rebate reference type" defaultValue="''" key="false" length="2" name="OBCLAT" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Supplier rebate reference type"/>
+      </column>
+      <column comment="Internal migration status" defaultValue="''" key="false" length="5" name="OBMIGI" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Internal migration status"/>
+      </column>
+      <additionalProperties key="SYSTEM_TABLE_NAME" value="OXLINE"/>
+      <additionalProperties key="TABLE_SCHEMA" value="M3FDBTST"/>
+      <additionalProperties key="SYSTEM_TABLE_SCHEMA" value="M3FDBTST"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="576" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_hHcrsIcJEeuSxZmFB4hMsg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out1">
+      <column comment="Company" defaultValue="0" key="false" length="3" name="OBCONO" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Company"/>
+      </column>
+      <column comment="Customer order number" defaultValue="''" key="false" length="10" name="OBORNO" nullable="true" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Customer order number"/>
+      </column>
+      <column comment="Order line number" defaultValue="0" key="false" length="5" name="OBPONR" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Order line number"/>
+      </column>
+      <column comment="Line suffix" defaultValue="0" key="false" length="3" name="OBPOSX" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Line suffix"/>
+      </column>
+      <column comment="" key="false" length="-1" name="OBLDED" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Annee" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Mois" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Jour" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="varLDED" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DWDT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables name="Var" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="TalendDate.addDate(TalendDate.parseDate(&quot;yyyyMMdd&quot;,&quot;&quot;+row1.OBDWDT),3,&quot;MM&quot;) " name="varLDED" type="id_Date"/>
+        <mapperTableEntries expression="Var.varLDED.getYear()+1900 " name="Annee" type="id_Integer"/>
+        <mapperTableEntries expression="Var.varLDED.getMonth()+1" name="Mois" type="id_Integer"/>
+        <mapperTableEntries expression="Var.varLDED.getDate()" name="Jour" type="id_Integer"/>
+        <mapperTableEntries expression="Var.Annee*10000 + Var.Mois*100 + Var.Jour " name="LDED" type="id_Integer"/>
+      </varTables>
+      <outputTables name="out1" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.OBCONO " name="OBCONO" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.OBORNO " name="OBORNO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.OBPONR " name="OBPONR" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.OBPOSX " name="OBPOSX" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Var.LDED " name="OBLDED" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="Var.Annee " name="Annee" type="id_Integer"/>
+        <mapperTableEntries expression="Var.Mois " name="Mois" type="id_Integer"/>
+        <mapperTableEntries expression="Var.Jour " name="Jour" type="id_Integer"/>
+        <mapperTableEntries expression="Var.varLDED " name="varLDED" type="id_Date"/>
+        <mapperTableEntries expression="row1.OBDWDT" name="DWDT" nullable="true" type="id_Integer"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="OBCONO" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIVI" type="id_String"/>
+        <mapperTableEntries name="OBORNO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="OBPONR" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPOSX" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBLTYP" type="id_String"/>
+        <mapperTableEntries name="OBORST" type="id_String"/>
+        <mapperTableEntries name="OBFACI" type="id_String"/>
+        <mapperTableEntries name="OBWHLO" type="id_String"/>
+        <mapperTableEntries name="OBITNO" type="id_String"/>
+        <mapperTableEntries name="OBREPI" type="id_String"/>
+        <mapperTableEntries name="OBITDS" type="id_String"/>
+        <mapperTableEntries name="OBTEDS" type="id_String"/>
+        <mapperTableEntries name="OBORQT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBORQA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBRNQT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBRNQA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBALQT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBALQA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPLQT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPLQA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDLQT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDLQA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBIVQT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBIVQA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDCCD" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBALUN" type="id_String"/>
+        <mapperTableEntries name="OBDCCA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCOFA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDMCF" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBSPUN" type="id_String"/>
+        <mapperTableEntries name="OBPCOF" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDCCS" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCOFS" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDMCS" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPOPN" type="id_String"/>
+        <mapperTableEntries name="OBALWT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBALWQ" type="id_String"/>
+        <mapperTableEntries name="OBSAPR" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBNEPR" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBSACD" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPRMO" type="id_String"/>
+        <mapperTableEntries name="OBDIC1" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIC2" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIC3" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIC4" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIC5" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIC6" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIP1" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIP2" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIP3" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIP4" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIP5" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIP6" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIA1" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIA2" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIA3" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIA4" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIA5" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDIA6" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCMP1" type="id_String"/>
+        <mapperTableEntries name="OBCMP2" type="id_String"/>
+        <mapperTableEntries name="OBCMP3" type="id_String"/>
+        <mapperTableEntries name="OBCMP4" type="id_String"/>
+        <mapperTableEntries name="OBCMP5" type="id_String"/>
+        <mapperTableEntries name="OBCMP6" type="id_String"/>
+        <mapperTableEntries name="OBDIBE" type="id_String"/>
+        <mapperTableEntries name="OBDIRE" type="id_String"/>
+        <mapperTableEntries name="OBDCHA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDPST" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDDSU" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBIDSC" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBACRF" type="id_String"/>
+        <mapperTableEntries name="OBOTDI" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDWDT" type="id_Integer"/>
+        <mapperTableEntries name="OBDWHM" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCODT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCOHM" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDWDZ" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDWHZ" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCODZ" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCOHZ" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBTIZO" type="id_String"/>
+        <mapperTableEntries name="OBDLTS" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBSTCD" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPRCH" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBRORC" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBRORN" type="id_String"/>
+        <mapperTableEntries name="OBRORL" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBUCOS" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCOCD" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBUCCD" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCMNO" type="id_String"/>
+        <mapperTableEntries name="OBHDPR" type="id_String"/>
+        <mapperTableEntries name="OBCFIN" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBECVS" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBVTCD" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBJDCD" type="id_String"/>
+        <mapperTableEntries name="OBDLSP" type="id_String"/>
+        <mapperTableEntries name="OBLNAM" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBLNA2" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDINR" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDISX" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBAGNO" type="id_String"/>
+        <mapperTableEntries name="OBBAGC" type="id_String"/>
+        <mapperTableEntries name="OBBAGD" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBAGLN" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPRRF" type="id_String"/>
+        <mapperTableEntries name="OBNTCD" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCNQT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBEDFP" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBSMCD" type="id_String"/>
+        <mapperTableEntries name="OBBNCD" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPRAC" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBVRCD" type="id_String"/>
+        <mapperTableEntries name="OBECLC" type="id_String"/>
+        <mapperTableEntries name="OBORCO" type="id_String"/>
+        <mapperTableEntries name="OBPRTX" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPOTX" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDTID" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDELS" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBE0PA" type="id_String"/>
+        <mapperTableEntries name="OBDSGP" type="id_String"/>
+        <mapperTableEntries name="OBMOYE" type="id_String"/>
+        <mapperTableEntries name="OBPUSN" type="id_String"/>
+        <mapperTableEntries name="OBPUTP" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBQTQL" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBTEPA" type="id_String"/>
+        <mapperTableEntries name="OBPACT" type="id_String"/>
+        <mapperTableEntries name="OBCUPA" type="id_String"/>
+        <mapperTableEntries name="OBD1QT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCUNO" type="id_String"/>
+        <mapperTableEntries name="OBCUOR" type="id_String"/>
+        <mapperTableEntries name="OBCUPO" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCUSX" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBSMCC" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBRSCD" type="id_String"/>
+        <mapperTableEntries name="OBMUFT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBINPR" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCUCT" type="id_String"/>
+        <mapperTableEntries name="OBABNO" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPROJ" type="id_String"/>
+        <mapperTableEntries name="OBELNO" type="id_String"/>
+        <mapperTableEntries name="OBBPAT" type="id_String"/>
+        <mapperTableEntries name="OBBPST" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBNOAA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCPRE" type="id_String"/>
+        <mapperTableEntries name="OBHAFE" type="id_String"/>
+        <mapperTableEntries name="OBCAWE" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBWHSL" type="id_String"/>
+        <mapperTableEntries name="OBBANO" type="id_String"/>
+        <mapperTableEntries name="OBCAMU" type="id_String"/>
+        <mapperTableEntries name="OBADID" type="id_String"/>
+        <mapperTableEntries name="OBROUT" type="id_String"/>
+        <mapperTableEntries name="OBRODN" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDSDT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDSHM" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDSTX" type="id_String"/>
+        <mapperTableEntries name="OBDEFC" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPLDT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPLHM" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBSRCD" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBSPLC" type="id_String"/>
+        <mapperTableEntries name="OBDLBU" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBSPOS" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBFDED" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBLDED" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBAETY" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBATNR" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBSCMO" type="id_String"/>
+        <mapperTableEntries name="OBPRPR" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCINA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBATV1" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBATV2" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBATV3" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBATV4" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBATV5" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBATV6" type="id_String"/>
+        <mapperTableEntries name="OBATV7" type="id_String"/>
+        <mapperTableEntries name="OBATV8" type="id_String"/>
+        <mapperTableEntries name="OBATV9" type="id_String"/>
+        <mapperTableEntries name="OBATV0" type="id_String"/>
+        <mapperTableEntries name="OBCNNR" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBMNIN" type="id_String"/>
+        <mapperTableEntries name="OBREPN" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBATPR" type="id_String"/>
+        <mapperTableEntries name="OBATMO" type="id_String"/>
+        <mapperTableEntries name="OBORTY" type="id_String"/>
+        <mapperTableEntries name="OBSUNO" type="id_String"/>
+        <mapperTableEntries name="OBPUPR" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPUCD" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPPUN" type="id_String"/>
+        <mapperTableEntries name="OBCUCD" type="id_String"/>
+        <mapperTableEntries name="OBODI1" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBODI2" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBODI3" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBOURR" type="id_String"/>
+        <mapperTableEntries name="OBOURT" type="id_String"/>
+        <mapperTableEntries name="OBBUYE" type="id_String"/>
+        <mapperTableEntries name="OBFWHL" type="id_String"/>
+        <mapperTableEntries name="OBPRNO" type="id_String"/>
+        <mapperTableEntries name="OBSCHN" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBMODL" type="id_String"/>
+        <mapperTableEntries name="OBTEDL" type="id_String"/>
+        <mapperTableEntries name="OBTEL2" type="id_String"/>
+        <mapperTableEntries name="OBRGDT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBRGTM" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBLMDT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCHNO" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCHID" type="id_String"/>
+        <mapperTableEntries name="OBRORX" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBLMTS" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBRTQA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBRTQT" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPRHL" type="id_String"/>
+        <mapperTableEntries name="OBSERN" type="id_String"/>
+        <mapperTableEntries name="OBCTNO" type="id_String"/>
+        <mapperTableEntries name="OBAPBA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCFGL" type="id_String"/>
+        <mapperTableEntries name="OBWATP" type="id_String"/>
+        <mapperTableEntries name="OBGWTP" type="id_String"/>
+        <mapperTableEntries name="OBPRHW" type="id_String"/>
+        <mapperTableEntries name="OBSERW" type="id_String"/>
+        <mapperTableEntries name="OBPWNR" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPWSX" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBEWST" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBAGNB" type="id_String"/>
+        <mapperTableEntries name="OBCTNS" type="id_String"/>
+        <mapperTableEntries name="OBWATQ" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBTECN" type="id_String"/>
+        <mapperTableEntries name="OBINAP" type="id_String"/>
+        <mapperTableEntries name="OBPCNR" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPCSU" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBRELI" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPIDE" type="id_String"/>
+        <mapperTableEntries name="OBPCLA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBBOP1" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBSCLB" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBOFNO" type="id_String"/>
+        <mapperTableEntries name="OBVERS" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBOFNR" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBOFSX" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBDECU" type="id_String"/>
+        <mapperTableEntries name="OBTEPY" type="id_String"/>
+        <mapperTableEntries name="OBARST" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBRSC1" type="id_String"/>
+        <mapperTableEntries name="OBPMOR" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCBSM" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBINIP" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBUPAV" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBQTBC" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBMPID" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBTOMU" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBENNO" type="id_String"/>
+        <mapperTableEntries name="OBLNCL" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBPRIO" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBCCSA" type="id_BigDecimal"/>
+        <mapperTableEntries name="OBRAGN" type="id_String"/>
+        <mapperTableEntries name="OBRASN" type="id_String"/>
+        <mapperTableEntries name="OBCLAT" type="id_String"/>
+        <mapperTableEntries name="OBMIGI" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBCONO"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBORNO"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPONR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBPOSX"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OBLDED"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Annee"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Mois"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Jour"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="varLDED"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DWDT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column comment="Company" defaultValue="0" key="false" length="3" name="OBCONO" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Company"/>
+      </column>
+      <column comment="Customer order number" defaultValue="''" key="false" length="10" name="OBORNO" nullable="true" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Customer order number"/>
+      </column>
+      <column comment="Order line number" defaultValue="0" key="false" length="5" name="OBPONR" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Order line number"/>
+      </column>
+      <column comment="Line suffix" defaultValue="0" key="false" length="3" name="OBPOSX" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Line suffix"/>
+      </column>
+      <column comment="" key="false" length="-1" name="OBLDED" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Annee" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Mois" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Jour" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="varLDED" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DWDT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="Jour"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Annee"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Mois"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="varLDED"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DWDT"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_36186b62-bc0a-4a57-8a68-a01f9b4a86aa"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pI51EyTUNtRt24tq988LwmIQVG3Jm0/7fCYIXwHZbPbcKju4LzVvb/wTRmEAdraJM9DHp+PUiz4S&#13;
+NhH8Ietcsg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_63c36079-37ca-404b-85d1-b333656f2705"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Z7Qwc6cXbRsbTa2qmPUcGgnis1T8wMEZ5cjRWQcOFUxVMsRTnTutFBp8hqkQmcaPlZc8YjelOb6d&#13;
+y3ARKs9RyA==</DigestValue></Reference></SignedInfo><SignatureValue>fCI1XUO6XcNAyaOfdCsKXRppGaPaVVjfXE9QCSo0Ujj+pxEJCY76Cm1ulr7BncjIEoFHXh07vQzR&#13;
+KRUiakhp7IoWxagKr2mLBXAOI0gktppCSrRs34wk59Un3f7+QPZ272eTpZ1rQSB50R+JcvuJRJ/3&#13;
+LcR23WEwSZiH3MoayG1HKmk8Iyn7w/SY3jj4q4bBnUfz77I1EnVvsdueyBL9jqt8nmltSyZlSqRw&#13;
+gWHDa5AHtVLOQkq22RmDcVolCzVtusDsjThI2YgPunvQOVF0hS5LJ8wBOZiEiOdXPcDdi455j5lc&#13;
+2C1m04ydhxWm0anbU35J1BM5u6ePA6ZFYPYapQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_63c36079-37ca-404b-85d1-b333656f2705" Target="#_36186b62-bc0a-4a57-8a68-a01f9b4a86aa"><Timestamp>2022-02-16 08:56:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

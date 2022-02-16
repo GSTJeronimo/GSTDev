@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_kTUpQAMcEeue4dtjEwSv4Q">
+    <contextParameter comment="" name="File" prompt="File?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQUAMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="PK01" prompt="PK01?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQUQMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="PK02" prompt="PK02?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQUgMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A030" prompt="A030?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQUwMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A130" prompt="A130?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQVAMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A230" prompt="A230?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQVQMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A330" prompt="A330?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQVgMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A430" prompt="A430?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQVwMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A530" prompt="A530?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQWAMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A630" prompt="A630?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQWQMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A730" prompt="A730?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQWgMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A830" prompt="A830?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQWwMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="PK03" prompt="PK03?" promptNeeded="false" type="id_String" value="" xmi:id="_bx0_kAo-Eeu_17iUJWBuWQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_kTVQXAMcEeue4dtjEwSv4Q">
+    <contextParameter comment="" name="File" prompt="File?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQXQMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="PK01" prompt="PK01?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQXgMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="PK02" prompt="PK02?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQXwMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A030" prompt="A030?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQYAMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A130" prompt="A130?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQYQMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A230" prompt="A230?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQYgMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A330" prompt="A330?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQYwMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A430" prompt="A430?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQZAMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A530" prompt="A530?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQZQMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A630" prompt="A630?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQZgMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A730" prompt="A730?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQZwMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A830" prompt="A830?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQaAMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="PK03" prompt="PK03?" promptNeeded="false" type="id_String" value="" xmi:id="_bx0_kQo-Eeu_17iUJWBuWQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_kTVQaQMcEeue4dtjEwSv4Q">
+    <contextParameter comment="" name="File" prompt="File?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQagMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="PK01" prompt="PK01?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQawMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="PK02" prompt="PK02?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQbAMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A030" prompt="A030?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQbQMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A130" prompt="A130?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQbgMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A230" prompt="A230?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQbwMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A330" prompt="A330?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQcAMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A430" prompt="A430?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQcQMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A530" prompt="A530?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQcgMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A630" prompt="A630?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQcwMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A730" prompt="A730?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQdAMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="A830" prompt="A830?" promptNeeded="false" type="id_String" value="" xmi:id="_kTVQdQMcEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="PK03" prompt="PK03?" promptNeeded="false" type="id_String" value="" xmi:id="_bx0_kgo-Eeu_17iUJWBuWQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6c77724f-eeec-4a6a-add2-ba6d5bb7fb55"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HQSczmqS0/RE0qfooPgAP4fFu3Hz6hiPznIbiIy7FEyeu5abect8/Xq7P3+ivMUvnyHekvlA6MTQ&#13;
+0sfHaBUfgQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4d029633-405b-4fd0-b347-8701ee40f4b6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/vFMTQ8LUvNUky27e3lj5ZyNn84EfzfQ98LviJsHzSySJVnKAJIGNg+qraHa527aCzWlSlpTcDwx&#13;
+RShvefrekg==</DigestValue></Reference></SignedInfo><SignatureValue>oPvgiHUoJ82uzEE4aSlIUswZW646SErex7j09ZjOLeoKm69mbW6Ng6lEpNCyXGZS9mGpCoZUumMx&#13;
+hcEVHRNEMgXTOyqBfo5WW/7RQF3lgP7fRymG0Yx5Lz0G7Xr7VnBP06BzrR8n406UeX7sCS/2nq7q&#13;
+M+gnENKUHrXazFGLVaZkJK4gXaSKiPWSFoHeXhzNj2JOcxZSasAbFm4oy16q0QK9RuHKwAB2YV6B&#13;
+wxmK1duf8Vv1DvsWgWioYuNi1rinzHggo03eZCPXQ85f1hmU3n2eKtY+xsDVTWE5vjxsc1oNNtTb&#13;
+z/7HU6PSrWMPlA3nnpF2fo7Vi2nsbGcyGl/dzw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4d029633-405b-4fd0-b347-8701ee40f4b6" Target="#_6c77724f-eeec-4a6a-add2-ba6d5bb7fb55"><Timestamp>2022-02-16 08:55:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

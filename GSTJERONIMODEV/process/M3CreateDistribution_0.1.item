@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Dev" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" internalId="_U7fBUI8GEeyS_JpLB9GNYg" name="COLOR_Report_Header" prompt="COLOR_Report_Header?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_U7fBUY8GEeyS_JpLB9GNYg" name="COLOR_Report_Encoding" prompt="COLOR_Report_Encoding?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="US-ASCII"/>
+    <contextParameter comment="" internalId="_U7fBUo8GEeyS_JpLB9GNYg" name="COLOR_Report_FieldSeparator" prompt="COLOR_Report_FieldSeparator?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" internalId="_U7fBU48GEeyS_JpLB9GNYg" name="COLOR_Report_RowSeparator" prompt="COLOR_Report_RowSeparator?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" internalId="_U7fBVI8GEeyS_JpLB9GNYg" name="COLOR_Report_File" prompt="COLOR_Report_File?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_File" value=""/>
+    <contextParameter comment="" internalId="_U7fBVY8GEeyS_JpLB9GNYg" name="COLOR_Report_Folder_In" prompt="COLOR_Report_Folder_In?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\\\\chzurxas026\\e$\\Infor\\MECCentral\\ITF_FTP\\COLOR\\InM3_DB\\&quot;"/>
+    <contextParameter comment="" internalId="_U7fBVo8GEeyS_JpLB9GNYg" name="COLOR_Report_Folder_Tmp" prompt="COLOR_Report_Folder_Tmp?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\\\\chzurxas026\\e$\\Infor\\MECCentral\\ITF_FTP\\COLOR\\InM3_DB\\M3_TEMP\\&quot;"/>
+    <contextParameter comment="" internalId="_U7fBV48GEeyS_JpLB9GNYg" name="COLOR_Report_Folder_Archive" prompt="COLOR_Report_Folder_Archive?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\\\\chzurxas026\\e$\\Infor\\MECCentral\\ITF_FTP\\COLOR\\InM3_DB\\Archive\\&quot;"/>
+    <contextParameter comment="" internalId="_U7fBWI8GEeyS_JpLB9GNYg" name="CO_ORNO" prompt="CO_ORNO?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBWY8GEeyS_JpLB9GNYg" name="CN_ORNO" prompt="CN_ORNO?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBWo8GEeyS_JpLB9GNYg" name="SO_ORNO" prompt="SO_ORNO?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBW48GEeyS_JpLB9GNYg" name="CO_FileTemp" prompt="CO_FileTemp?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBXI8GEeyS_JpLB9GNYg" name="CN_FileTemp" prompt="CN_FileTemp?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBXY8GEeyS_JpLB9GNYg" name="SO_FileTemp" prompt="SO_FileTemp?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBXo8GEeyS_JpLB9GNYg" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBX48GEeyS_JpLB9GNYg" name="StoreID" prompt="StoreID?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBYI8GEeyS_JpLB9GNYg" name="StoreName" prompt="StoreName?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBYY8GEeyS_JpLB9GNYg" name="StoreFACI" prompt="StoreFACI?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBYo8GEeyS_JpLB9GNYg" name="StoreWHLO" prompt="StoreWHLO?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBY48GEeyS_JpLB9GNYg" name="StorePYCD" prompt="StorePYCD?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBZI8GEeyS_JpLB9GNYg" name="CO_Type" prompt="CO_Type?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBZY8GEeyS_JpLB9GNYg" name="CN_Type" prompt="CN_Type?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBZo8GEeyS_JpLB9GNYg" name="SO_Type" prompt="SO_Type?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBZ48GEeyS_JpLB9GNYg" name="CustomerNumber" prompt="CustomerNumber?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBaI8GEeyS_JpLB9GNYg" name="CO_NBLINE" prompt="CO_NBLINE?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;0&quot;"/>
+    <contextParameter comment="" internalId="_U7fBaY8GEeyS_JpLB9GNYg" name="CN_NBLINE" prompt="CN_NBLINE?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;0&quot;"/>
+    <contextParameter comment="" internalId="_U7fBao8GEeyS_JpLB9GNYg" name="SO_NBLINE" prompt="SO_NBLINE?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;0&quot;"/>
+    <contextParameter comment="" internalId="_U7fBa48GEeyS_JpLB9GNYg" name="lstCustomer" prompt="lstCustomer?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBbI8GEeyS_JpLB9GNYg" name="lstStealth" prompt="lstStealth?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBbY8GEeyS_JpLB9GNYg" name="COLOR_Report_Folder_EDI" prompt="COLOR_Report_Folder_EDI?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\\\\chzurxas026\\e$\\Infor\\MECCentral\\ITF_FTP\\COLOR\\InM3_DB\\&quot;"/>
+    <contextParameter comment="" internalId="_U7fBbo8GEeyS_JpLB9GNYg" name="UserName" prompt="UserName?" promptNeeded="false" repositoryContextId="_JL1ji48GEeyS_JpLB9GNYg" type="id_String" value="LCMADMIN"/>
+    <contextParameter comment="" internalId="_U7fBb48GEeyS_JpLB9GNYg" name="WSDL_Path" prompt="WSDL_Path?" promptNeeded="false" repositoryContextId="_JL1ji48GEeyS_JpLB9GNYg" type="id_String" value="http://ggm3.emea.guccigroup.dom:16101/mws-ws/services/"/>
+    <contextParameter comment="" internalId="_U7fBcI8GEeyS_JpLB9GNYg" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_JL1ji48GEeyS_JpLB9GNYg" type="id_Password" value="enc:system.encryption.key.v1:Htyh7P/3N+oHBJBg4wy+6zKH6hWO5g6SQBVpi3u3PBaBKxUG"/>
+    <contextParameter comment="" internalId="_LYlHsI8GEeyS_JpLB9GNYg" name="CUOR" prompt="CUOR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_LYlHsY8GEeyS_JpLB9GNYg" name="TemporaryOrderNumber" prompt="TemporaryOrderNumber?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBcY8GEeyS_JpLB9GNYg" name="DO_NBLINE" prompt="DO_NBLINE?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;0&quot;"/>
+    <contextParameter comment="" internalId="_LYlHso8GEeyS_JpLB9GNYg" name="OrderType" prompt="OrderType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_LYlHs48GEeyS_JpLB9GNYg" name="toLocation" prompt="toLocation?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" internalId="_U7fBco8GEeyS_JpLB9GNYg" name="COLOR_Report_Header" prompt="COLOR_Report_Header?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_U7fBc48GEeyS_JpLB9GNYg" name="COLOR_Report_Encoding" prompt="COLOR_Report_Encoding?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="US-ASCII"/>
+    <contextParameter comment="" internalId="_U7fBdI8GEeyS_JpLB9GNYg" name="COLOR_Report_FieldSeparator" prompt="COLOR_Report_FieldSeparator?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" internalId="_U7fBdY8GEeyS_JpLB9GNYg" name="COLOR_Report_RowSeparator" prompt="COLOR_Report_RowSeparator?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" internalId="_U7fBdo8GEeyS_JpLB9GNYg" name="COLOR_Report_File" prompt="COLOR_Report_File?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_File" value=""/>
+    <contextParameter comment="" internalId="_U7fBd48GEeyS_JpLB9GNYg" name="COLOR_Report_Folder_In" prompt="COLOR_Report_Folder_In?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\InM3_DB\\&quot;"/>
+    <contextParameter comment="" internalId="_U7fBeI8GEeyS_JpLB9GNYg" name="COLOR_Report_Folder_Tmp" prompt="COLOR_Report_Folder_Tmp?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\InM3_DB\\M3_TEMP\\&quot;"/>
+    <contextParameter comment="" internalId="_U7fBeY8GEeyS_JpLB9GNYg" name="COLOR_Report_Folder_Archive" prompt="COLOR_Report_Folder_Archive?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\InM3_DB\\Archive\\&quot;"/>
+    <contextParameter comment="" internalId="_U7fBeo8GEeyS_JpLB9GNYg" name="CO_ORNO" prompt="CO_ORNO?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBe48GEeyS_JpLB9GNYg" name="CN_ORNO" prompt="CN_ORNO?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBfI8GEeyS_JpLB9GNYg" name="SO_ORNO" prompt="SO_ORNO?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBfY8GEeyS_JpLB9GNYg" name="CO_FileTemp" prompt="CO_FileTemp?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBfo8GEeyS_JpLB9GNYg" name="CN_FileTemp" prompt="CN_FileTemp?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBf48GEeyS_JpLB9GNYg" name="SO_FileTemp" prompt="SO_FileTemp?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBgI8GEeyS_JpLB9GNYg" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBgY8GEeyS_JpLB9GNYg" name="StoreID" prompt="StoreID?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBgo8GEeyS_JpLB9GNYg" name="StoreName" prompt="StoreName?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBg48GEeyS_JpLB9GNYg" name="StoreFACI" prompt="StoreFACI?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBhI8GEeyS_JpLB9GNYg" name="StoreWHLO" prompt="StoreWHLO?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBhY8GEeyS_JpLB9GNYg" name="StorePYCD" prompt="StorePYCD?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBho8GEeyS_JpLB9GNYg" name="CO_Type" prompt="CO_Type?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBh48GEeyS_JpLB9GNYg" name="CN_Type" prompt="CN_Type?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBiI8GEeyS_JpLB9GNYg" name="SO_Type" prompt="SO_Type?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBiY8GEeyS_JpLB9GNYg" name="CustomerNumber" prompt="CustomerNumber?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBio8GEeyS_JpLB9GNYg" name="CO_NBLINE" prompt="CO_NBLINE?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;0&quot;"/>
+    <contextParameter comment="" internalId="_U7fBi48GEeyS_JpLB9GNYg" name="CN_NBLINE" prompt="CN_NBLINE?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;0&quot;"/>
+    <contextParameter comment="" internalId="_U7fBjI8GEeyS_JpLB9GNYg" name="SO_NBLINE" prompt="SO_NBLINE?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;0&quot;"/>
+    <contextParameter comment="" internalId="_U7fBjY8GEeyS_JpLB9GNYg" name="lstCustomer" prompt="lstCustomer?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBjo8GEeyS_JpLB9GNYg" name="lstStealth" prompt="lstStealth?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBj48GEeyS_JpLB9GNYg" name="COLOR_Report_Folder_EDI" prompt="COLOR_Report_Folder_EDI?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\InM3_DB\\&quot;"/>
+    <contextParameter comment="" internalId="_U7fBkI8GEeyS_JpLB9GNYg" name="UserName" prompt="UserName?" promptNeeded="false" repositoryContextId="_JL1ji48GEeyS_JpLB9GNYg" type="id_String" value="LCMADMIN"/>
+    <contextParameter comment="" internalId="_U7fBkY8GEeyS_JpLB9GNYg" name="WSDL_Path" prompt="WSDL_Path?" promptNeeded="false" repositoryContextId="_JL1ji48GEeyS_JpLB9GNYg" type="id_String" value="http://gtchdev.emea.guccigroup.dom:16201/mws-ws/services/"/>
+    <contextParameter comment="" internalId="_U7fBko8GEeyS_JpLB9GNYg" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_JL1ji48GEeyS_JpLB9GNYg" type="id_Password" value="enc:system.encryption.key.v1:fdAYkc8AQspgCj/mp8f9Keyl3+TpASP/P4Iw9ReJ89k0IKYm"/>
+    <contextParameter comment="" internalId="_LYlHtI8GEeyS_JpLB9GNYg" name="CUOR" prompt="CUOR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_LYlHtY8GEeyS_JpLB9GNYg" name="TemporaryOrderNumber" prompt="TemporaryOrderNumber?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBk48GEeyS_JpLB9GNYg" name="DO_NBLINE" prompt="DO_NBLINE?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;0&quot;"/>
+    <contextParameter comment="" internalId="_LYlHto8GEeyS_JpLB9GNYg" name="OrderType" prompt="OrderType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_LYlHt48GEeyS_JpLB9GNYg" name="toLocation" prompt="toLocation?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="Test">
+    <contextParameter comment="" internalId="_U7fBlI8GEeyS_JpLB9GNYg" name="COLOR_Report_Header" prompt="COLOR_Report_Header?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_Integer" value="0"/>
+    <contextParameter comment="" internalId="_U7fBlY8GEeyS_JpLB9GNYg" name="COLOR_Report_Encoding" prompt="COLOR_Report_Encoding?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="US-ASCII"/>
+    <contextParameter comment="" internalId="_U7fBlo8GEeyS_JpLB9GNYg" name="COLOR_Report_FieldSeparator" prompt="COLOR_Report_FieldSeparator?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" internalId="_U7fBl48GEeyS_JpLB9GNYg" name="COLOR_Report_RowSeparator" prompt="COLOR_Report_RowSeparator?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" internalId="_U7fBmI8GEeyS_JpLB9GNYg" name="COLOR_Report_File" prompt="COLOR_Report_File?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_File" value=""/>
+    <contextParameter comment="" internalId="_U7fBmY8GEeyS_JpLB9GNYg" name="COLOR_Report_Folder_In" prompt="COLOR_Report_Folder_In?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\InM3_DB\\&quot;"/>
+    <contextParameter comment="" internalId="_U7fBmo8GEeyS_JpLB9GNYg" name="COLOR_Report_Folder_Tmp" prompt="COLOR_Report_Folder_Tmp?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\InM3_DB\\M3_TEMP\\&quot;"/>
+    <contextParameter comment="" internalId="_U7fBm48GEeyS_JpLB9GNYg" name="COLOR_Report_Folder_Archive" prompt="COLOR_Report_Folder_Archive?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\InM3_DB\\Archive\\&quot;"/>
+    <contextParameter comment="" internalId="_U7fBnI8GEeyS_JpLB9GNYg" name="CO_ORNO" prompt="CO_ORNO?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBnY8GEeyS_JpLB9GNYg" name="CN_ORNO" prompt="CN_ORNO?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBno8GEeyS_JpLB9GNYg" name="SO_ORNO" prompt="SO_ORNO?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBn48GEeyS_JpLB9GNYg" name="CO_FileTemp" prompt="CO_FileTemp?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBoI8GEeyS_JpLB9GNYg" name="CN_FileTemp" prompt="CN_FileTemp?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBoY8GEeyS_JpLB9GNYg" name="SO_FileTemp" prompt="SO_FileTemp?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBoo8GEeyS_JpLB9GNYg" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBo48GEeyS_JpLB9GNYg" name="StoreID" prompt="StoreID?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBpI8GEeyS_JpLB9GNYg" name="StoreName" prompt="StoreName?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBpY8GEeyS_JpLB9GNYg" name="StoreFACI" prompt="StoreFACI?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBpo8GEeyS_JpLB9GNYg" name="StoreWHLO" prompt="StoreWHLO?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBp48GEeyS_JpLB9GNYg" name="StorePYCD" prompt="StorePYCD?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBqI8GEeyS_JpLB9GNYg" name="CO_Type" prompt="CO_Type?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBqY8GEeyS_JpLB9GNYg" name="CN_Type" prompt="CN_Type?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBqo8GEeyS_JpLB9GNYg" name="SO_Type" prompt="SO_Type?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBq48GEeyS_JpLB9GNYg" name="CustomerNumber" prompt="CustomerNumber?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBrI8GEeyS_JpLB9GNYg" name="CO_NBLINE" prompt="CO_NBLINE?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;0&quot;"/>
+    <contextParameter comment="" internalId="_U7fBrY8GEeyS_JpLB9GNYg" name="CN_NBLINE" prompt="CN_NBLINE?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;0&quot;"/>
+    <contextParameter comment="" internalId="_U7fBro8GEeyS_JpLB9GNYg" name="SO_NBLINE" prompt="SO_NBLINE?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;0&quot;"/>
+    <contextParameter comment="" internalId="_U7fBr48GEeyS_JpLB9GNYg" name="lstCustomer" prompt="lstCustomer?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7fBsI8GEeyS_JpLB9GNYg" name="lstStealth" prompt="lstStealth?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7foYI8GEeyS_JpLB9GNYg" name="COLOR_Report_Folder_EDI" prompt="COLOR_Report_Folder_EDI?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\InM3_DB\\&quot;"/>
+    <contextParameter comment="" internalId="_U7foYY8GEeyS_JpLB9GNYg" name="UserName" prompt="UserName?" promptNeeded="false" repositoryContextId="_JL1ji48GEeyS_JpLB9GNYg" type="id_String" value="LCMADMIN"/>
+    <contextParameter comment="" internalId="_U7foYo8GEeyS_JpLB9GNYg" name="WSDL_Path" prompt="WSDL_Path?" promptNeeded="false" repositoryContextId="_JL1ji48GEeyS_JpLB9GNYg" type="id_String" value="http://gtchdev.emea.guccigroup.dom:16201/mws-ws/services/"/>
+    <contextParameter comment="" internalId="_U7foY48GEeyS_JpLB9GNYg" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_JL1ji48GEeyS_JpLB9GNYg" type="id_Password" value="enc:system.encryption.key.v1:Agw8jpkGMxyOiiTvYv3QERswolJvAzca+wbmqqXvEhHuagLV"/>
+    <contextParameter comment="" internalId="_LYlHuI8GEeyS_JpLB9GNYg" name="CUOR" prompt="CUOR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_LYlHuY8GEeyS_JpLB9GNYg" name="TemporaryOrderNumber" prompt="TemporaryOrderNumber?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_U7foZI8GEeyS_JpLB9GNYg" name="DO_NBLINE" prompt="DO_NBLINE?" promptNeeded="false" repositoryContextId="_cXnLMBj6EeuQX4no077JHQ" type="id_String" value="&quot;0&quot;"/>
+    <contextParameter comment="" internalId="_LYlHuo8GEeyS_JpLB9GNYg" name="OrderType" prompt="OrderType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_LYlHu48GEeyS_JpLB9GNYg" name="toLocation" prompt="toLocation?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:UrjFMm1g+g2b6pkmGdkw1Yh4jqKRUyp8+2h1rzDi"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend-Studio-V8.0.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:G2CeA1jqaRBFFoxotTUuG2s2XW1ZGVTAwrqZuhG0"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_PAU34BozEemvhq_PiJlOJg" name="DataOperation"/>
+    <routinesParameter id="_PA774BozEemvhq_PiJlOJg" name="Mathematical"/>
+    <routinesParameter id="_PBCpkBozEemvhq_PiJlOJg" name="Numeric"/>
+    <routinesParameter id="_PBLzgBozEemvhq_PiJlOJg" name="Relational"/>
+    <routinesParameter id="_PBRTEBozEemvhq_PiJlOJg" name="StringHandling"/>
+    <routinesParameter id="_PBZO4BozEemvhq_PiJlOJg" name="TalendDataGenerator"/>
+    <routinesParameter id="_PBhKsBozEemvhq_PiJlOJg" name="TalendDate"/>
+    <routinesParameter id="_PB3I8BozEemvhq_PiJlOJg" name="TalendStringUtil"/>
+    <routinesParameter id="_PBxCUBozEemvhq_PiJlOJg" name="TalendString"/>
+    <routinesParameter id="__Nac8G44EeyH6pqyGkidSg" name="SQLike"/>
+  </parameters>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Debug&#10;/*context.FileName=&quot;\\\\Chcoras018\\E$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\InM3_DB\\M3_TEMP\\CO_W_G-2010000078_20201120153000 - DO.TXT.tmp&quot;;&#10;context.CustomerNumber=&quot;2010000078&quot;;&#10;context.OrderType=&quot;201&quot;;&#10;context.StoreFACI=&quot;A20&quot;;&#10;context.StoreWHLO=&quot;YC3&quot;;&#10;context.DO_NBLINE=&quot;1&quot;;*/"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1056" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tContextDump" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1152" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextDump_1"/>
+    <elementParameter field="CHECK" name="HIDE_PASSWORD" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tContextDump_1">
+      <column defaultValue="" key="false" length="255" name="key" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="value" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1248" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="key"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="LABEL" value="DO_context"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column defaultValue="" key="false" length="255" name="key" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="value" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tSOAP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSOAP_1"/>
+    <elementParameter field="CHECK" name="USE_NTLM" value="false"/>
+    <elementParameter field="TEXT" name="NTLM_DOMAIN" show="false" value="&quot;192.168.0.100&quot;"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.UserName"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:Z+WjX/wQ9mUQxG8d4DVgvouAQCC+rJWyPbaev6uR7aDkVXGVkJT5p+buDEc="/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:dnOs8L6qNRJ91GI5W5JZiqEHYAzp2AIBxCRdjchr"/>
+    <elementParameter field="CHECK" name="NEED_SSL_TO_TRUSTSERVER" value="false"/>
+    <elementParameter field="TEXT" name="SSL_TRUSTSERVER_TRUSTSTORE" show="false" value="&quot;C:/clientTrustStore.trustStore&quot;"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:gpPCqtKFrNKU7Q9O0sGp0fVPRZr81VypQ5v2R0oELPV0+vpSfx0="/>
+    <elementParameter field="TEXT" name="ENDPOINT" value="context.WSDL_Path + &quot;MMS100&quot;"/>
+    <elementParameter field="TEXT" name="ACTION" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="SOAP_VERSION" value="Soap11"/>
+    <elementParameter field="CHECK" name="USE_MESSAGE_FROM_SCHEMA" value="false"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="SOAPMESSAGE_FROM_SCHEMA" show="false" value=""/>
+    <elementParameter field="MEMO" name="SOAPMESSAGE" value="&quot;&lt;soapenv:Envelope xmlns:soapenv=\&quot;http://schemas.xmlsoap.org/soap/envelope/\&quot; xmlns:cred=\&quot;http://lawson.com/ws/credentials\&quot; xmlns:mmz=\&quot;http://www.guccitimeless.com/MMS100/MMZ100APIAddHead\&quot;&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;mmz:MMZ100APIAddHead maxRecords=\&quot;1\&quot;&gt;&#13;&#10;         &lt;mmz:AddHeadItem&gt;&#13;&#10;            &lt;mmz:OrderType&gt;&quot; + context.OrderType + &quot;&lt;/mmz:OrderType&gt;&#13;&#10;            &lt;mmz:Facility&gt;A05&lt;/mmz:Facility&gt;&#13;&#10;            &lt;mmz:ReferenceOrderNumber&gt;&quot; + context.CUOR + &quot;&lt;/mmz:ReferenceOrderNumber&gt;&#13;&#10;            &lt;mmz:ToLocation&gt;&quot; + context.CustomerNumber + &quot;&lt;/mmz:ToLocation&gt;&#13;&#10;            &lt;mmz:ToWarehouse&gt;&quot; + context.StoreWHLO + &quot;&lt;/mmz:ToWarehouse&gt;&#13;&#10;            &lt;mmz:Warehouse&gt;YF0&lt;/mmz:Warehouse&gt;&#13;&#10;         &lt;/mmz:AddHeadItem&gt;&#13;&#10;      &lt;/mmz:MMZ100APIAddHead&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&quot;"/>
+    <elementParameter field="CHECK" name="OUTPUT_DOCUMENT" value="false"/>
+    <elementParameter field="CHECK" name="USE_KERBEROS" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="KERBEROS_CONFIGURATION" show="false" value=""/>
+    <elementParameter field="CHECK" name="ENFORCE_NTLM" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="MMS100_AddHead"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSOAP_1">
+      <column defaultValue="" key="false" length="0" name="Header" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="Body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="Fault" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tReplicate_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tReplicate_1">
+      <column key="false" length="0" name="Header" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="Body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="Fault" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tExtractXMLField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tExtractXMLField_1"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="XMLFIELD" value="Body"/>
+    <elementParameter field="CHECK" name="USE_ITEMS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY_BASE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/MMZ100APIAddHeadResponse/AddHeadResponseItem&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="TemporaryOrderNumber"/>
+      <elementValue elementRef="QUERY" value="&quot;./OrderNumber&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="USE_XML_FIELD" show="false" value="false"/>
+    <elementParameter field="TEXT" name="XML_TEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="XML_PREFIX" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="CHECK" name="IGNORE_NS" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="TemporaryOrderNumber"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="BodyOut" name="tExtractXMLField_1">
+      <column comment="" key="false" length="-1" name="TemporaryOrderNumber" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="BodyOut" name="REJECT">
+      <column comment="" key="false" length="-1" name="TemporaryOrderNumber" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorXMLField" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="672" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_xIyVsCmxEeuHSrcUBcbYJg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="outTemporaryOrderNumber">
+      <column comment="" key="false" length="255" name="key" nullable="true" originalLength="-1" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="value" nullable="true" originalLength="-1" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="outLogTemporaryOrderNumber">
+      <column comment="" key="false" length="255" name="TemporaryOrderNumber" nullable="true" originalLength="-1" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="outTemporaryOrderNumber" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;TemporaryOrderNumber&quot;" name="key" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.TemporaryOrderNumber " name="value" nullable="true" type="id_String"/>
+      </outputTables>
+      <outputTables name="outLogTemporaryOrderNumber" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row2.TemporaryOrderNumber  " name="TemporaryOrderNumber" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="TemporaryOrderNumber" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextLoad_1"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
+    <elementParameter field="CHECK" name="DIEONERROR" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tContextLoad_1">
+      <column defaultValue="" key="false" length="255" name="key" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="value" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="800" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_3"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_xIyVsCmxEeuHSrcUBcbYJg-tMap_3-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="outResult">
+      <column comment="" key="false" length="-1" name="TemporaryOrderNumber" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="confirmOK" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="outResultLog">
+      <column comment="" key="false" length="-1" name="TemporaryOrderNumber" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="confirmOK" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables name="Var" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="Relational.ISNULL(context.TemporaryOrderNumber)?&quot;OK&quot;:&quot;KO&quot; " name="confirmOK" type="id_String"/>
+      </varTables>
+      <outputTables name="outResult" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="context.TemporaryOrderNumber" name="TemporaryOrderNumber" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.confirmOK " name="confirmOK" type="id_String"/>
+      </outputTables>
+      <outputTables name="outResultLog" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="context.TemporaryOrderNumber " name="TemporaryOrderNumber" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.confirmOK  " name="confirmOK" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="outLogTemporaryOrderNumber" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="TemporaryOrderNumber" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tBufferOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tBufferOutput_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tBufferOutput_1">
+      <column comment="" key="false" length="-1" name="TemporaryOrderNumber" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="confirmOK" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_2"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Header"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Body"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Fault"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="LABEL" value="DO_HEAD_ERROR"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_2">
+      <column key="false" length="0" name="Header" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="Body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="Fault" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.FileName"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" show="false" value="&quot;C:/TOS/workspace&quot;"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" show="false" value="10"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="true"/>
+    <elementParameter field="TABLE" name="TRIMSELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="StoreID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="StoreName"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TransDate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TransID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RegID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SAID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SAName"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerName"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DepartmentID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ItemID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SerialNumber"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ItemDesc"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NetPrice"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OverridePrice"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Discounts"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GrossSales"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Currency"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="M3Exist"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="StoreID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="StoreName"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TransDate"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TransID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RegID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SAID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SAName"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerName"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DepartmentID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ItemID"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SerialNumber"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ItemDesc"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Quantity"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NetPrice"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OverridePrice"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Discounts"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GrossSales"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Currency"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="M3Exist"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" show="false" value=""/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputDelimited_1">
+      <column comment="" key="false" length="5" name="StoreID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="37" name="StoreName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TransDate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="TransID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="RegID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="SAID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="SAName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="CustomerID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="CustomerName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="DepartmentID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="ItemID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="SerialNumber" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="ItemDesc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="Quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="7" name="NetPrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" sourceType="" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="OverridePrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="Discounts" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="7" name="GrossSales" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" sourceType="" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="Currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="M3Exist" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="" key="false" length="5" name="StoreID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="37" name="StoreName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TransDate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="TransID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="RegID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="SAID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="SAName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="14" name="CustomerID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="CustomerName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="DepartmentID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="ItemID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="SerialNumber" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="60" name="ItemDesc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="Quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="7" name="NetPrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" sourceType="" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="OverridePrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="Discounts" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="7" name="GrossSales" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" sourceType="" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="Currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="M3Exist" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="576" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_xIyVsCmxEeuHSrcUBcbYJg-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="outLine">
+      <column comment="" key="false" length="15" name="ItemID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="Quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="CustomerID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="SerialNumber" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Location" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="outLine" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row4.ItemID " name="ItemID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row4.Quantity" name="Quantity" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row4.CustomerID " name="CustomerID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row4.SerialNumber " name="SerialNumber" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="context.CustomerNumber " name="Location" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row4" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="StoreID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="StoreName" nullable="true" type="id_String"/>
+        <mapperTableEntries name="TransDate" nullable="true" type="id_String"/>
+        <mapperTableEntries name="TransID" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="RegID" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="SAID" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="SAName" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CustomerID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CustomerName" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DepartmentID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ItemID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SerialNumber" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ItemDesc" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Quantity" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="NetPrice" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="OverridePrice" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="Discounts" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="GrossSales" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="Currency" nullable="true" type="id_String"/>
+        <mapperTableEntries name="M3Exist" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tSOAP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="800" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSOAP_2"/>
+    <elementParameter field="CHECK" name="USE_NTLM" value="false"/>
+    <elementParameter field="TEXT" name="NTLM_DOMAIN" show="false" value="&quot;192.168.0.100&quot;"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.UserName"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:79C21PL28m1r3Y/EvuJ6jV/4fgdj3sm3bt4VBrlYsCTLiG5PiMPEv8vkFSs="/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:ov3OTDVAImE45PM5o1uSsZ9vtdZrFqPmg3gT3VNa"/>
+    <elementParameter field="CHECK" name="NEED_SSL_TO_TRUSTSERVER" value="false"/>
+    <elementParameter field="TEXT" name="SSL_TRUSTSERVER_TRUSTSTORE" show="false" value="&quot;C:/clientTrustStore.trustStore&quot;"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:vkalC8NHtf0StWzHha1x0SCAFcztoaicEz1QslyiAVSGuv3ChbE="/>
+    <elementParameter field="TEXT" name="ENDPOINT" value="context.WSDL_Path + &quot;OIS100&quot;"/>
+    <elementParameter field="TEXT" name="ACTION" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="SOAP_VERSION" value="Soap11"/>
+    <elementParameter field="CHECK" name="USE_MESSAGE_FROM_SCHEMA" value="false"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="SOAPMESSAGE_FROM_SCHEMA" show="false" value="ItemID"/>
+    <elementParameter field="MEMO" name="SOAPMESSAGE" value="&quot;&lt;soapenv:Envelope xmlns:soapenv=\&quot;http://schemas.xmlsoap.org/soap/envelope/\&quot; xmlns:cred=\&quot;http://lawson.com/ws/credentials\&quot; xmlns:mmz=\&quot;http://www.guccitimeless.com/MMS100/MMZ100APIAddLine\&quot;&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;mmz:MMZ100APIAddLine maxRecords=\&quot;1\&quot;&gt;&#13;&#10;         &lt;mmz:AddLineItem&gt;&#13;&#10;            &lt;mmz:OrderNumber&gt;&quot; + context.TemporaryOrderNumber + &quot;&lt;/mmz:OrderNumber&gt;&#13;&#10;            &lt;mmz:Warehouse&gt;YF0&lt;/mmz:Warehouse&gt;&#13;&#10;            &lt;mmz:ItemNumber&gt;&quot; + outLine.ItemID + &quot;&lt;/mmz:ItemNumber&gt;&#13;&#10;            &lt;mmz:TransactionQuantity&gt;&quot; + outLine.Quantity + &quot;&lt;/mmz:TransactionQuantity&gt;&#13;&#10;            &lt;mmz:ReferenceOrderNumber&gt;&quot; +  outLine.CustomerID + &quot;&lt;/mmz:ReferenceOrderNumber&gt;&#13;&#10;            &lt;/mmz:AddLineItem&gt;&#13;&#10;      &lt;/mmz:MMZ100APIAddLine&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&quot;"/>
+    <elementParameter field="CHECK" name="OUTPUT_DOCUMENT" value="false"/>
+    <elementParameter field="CHECK" name="USE_KERBEROS" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="KERBEROS_CONFIGURATION" show="false" value=""/>
+    <elementParameter field="CHECK" name="ENFORCE_NTLM" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="OIS100_AddLine"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSOAP_2">
+      <column key="false" length="0" name="Header" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="Body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="Fault" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_3"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Header"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Body"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Fault"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_3">
+      <column defaultValue="" key="false" length="0" name="Header" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="Body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="Fault" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tSOAP_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tContextDump_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="FLOW" label="row11" lineStyle="0" metaname="tContextDump_1" offsetLabelX="0" offsetLabelY="0" source="tContextDump_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row11"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tSOAP_1" offsetLabelX="0" offsetLabelY="0" source="tSOAP_1" target="tReplicate_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tSOAP_1" offsetLabelX="0" offsetLabelY="0" source="tSOAP_1" target="tFileInputDelimited_1">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="!context.TemporaryOrderNumber.equals(&quot;&quot;)"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tReplicate_1" target="tExtractXMLField_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="Header"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Fault"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Body"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tReplicate_1" target="tLogRow_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row6"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tExtractXMLField_1" offsetLabelX="0" offsetLabelY="0" source="tExtractXMLField_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="FLOW" label="outTemporaryOrderNumber" lineStyle="0" metaname="outTemporaryOrderNumber" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tContextLoad_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="outTemporaryOrderNumber"/>
+  </connection>
+  <connection connectorName="FLOW" label="outLogTemporaryOrderNumber" lineStyle="0" metaname="outLogTemporaryOrderNumber" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="outLogTemporaryOrderNumber"/>
+  </connection>
+  <connection connectorName="FLOW" label="outResult" lineStyle="0" metaname="outResult" offsetLabelX="0" offsetLabelY="0" source="tMap_3" target="tBufferOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="outResult"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+  </connection>
+  <connection connectorName="FLOW" label="outLine" lineStyle="0" metaname="outLine" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tSOAP_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="Location"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="outLine"/>
+  </connection>
+  <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tSOAP_2" offsetLabelX="0" offsetLabelY="0" source="tSOAP_2" target="tLogRow_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Init"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextDump_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSOAP_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Create Order Head"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Create Order Line"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c5e2fd2e-445d-4b54-b5a5-77a9f40c1ea0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JFpSeqaby4nYksj7pvGLrPFeMcwSmCpAA7VMDqmnNCMgMYchu1O/vj7ejnVvfyzrFJBOp3gUY/D0&#13;
+RE21fLVdNQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c7c61bb9-a779-47f5-8394-1f9b9ae166de"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>O+IsPYADCrjdQOPfDGCyvzo756RfUJ9WjylG232E7VcdcLxUydNy79HqOdmoqB7savUIP4kphEDt&#13;
+YO1c6PcngQ==</DigestValue></Reference></SignedInfo><SignatureValue>A3IBd7S2cMi9wzs5oag7xWUzrLMJIhFiKSWE2HdmpFdeXalA1Ivji3DvrPJEzQRqmqNiF93hmw8Y&#13;
+0oawbjX1cOWxUiTyay795AG7opG1xsPv3C0WUxi9G7kvprrLazBVN3eytrE9GgQ/aUM87fipdTJY&#13;
+v2TTdSuB6cn+nM+fTUYzxlAdcAutZG1AQrGirJfohaIR0ZU94EIiwycz25FG7z0ZBnHNSFPEYzdD&#13;
+tthmaIeIAcL6xve+3s9Qp28yTyrlzlmLX5xSfFDEMfnssefMMwzvuiNhRtHvIOTX+u7pYrakfEIA&#13;
+Mg99UF4xSAEMrQFkZbPoGk1rdBAlOq7MxrX9nw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c7c61bb9-a779-47f5-8394-1f9b9ae166de" Target="#_c5e2fd2e-445d-4b54-b5a5-77a9f40c1ea0"><Timestamp>2022-02-16 08:56:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

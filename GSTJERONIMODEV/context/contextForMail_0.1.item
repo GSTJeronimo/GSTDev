@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_Z8FzcA1TEeu_17iUJWBuWQ">
+    <contextParameter comment="" name="fromMail" prompt="fromMail?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8FzcQ1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="toMail" prompt="toMail?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8Fzcg1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="ccMail" prompt="ccMail?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8Fzcw1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="bccMail" prompt="bccMail?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8FzdA1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="subject" prompt="subject?" promptNeeded="false" type="id_String" value="DEV - Report XStore Integration" xmi:id="_Z8FzdQ1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8Fzdg1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="smtpHost" prompt="smtpHost?" promptNeeded="false" type="id_String" value="smtp.kering.net" xmi:id="_KKA2QA1dEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="smtpPort" prompt="smtpPort?" promptNeeded="false" type="id_String" value="25" xmi:id="_KKA2QQ1dEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="smtpUser" prompt="smtpUser?" promptNeeded="false" type="id_String" value="" xmi:id="_KKA2Qg1dEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="smtpPassword" prompt="smtpPassword?" promptNeeded="false" type="id_String" value="" xmi:id="_KKA2Qw1dEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="messageHeader" prompt="messageHeader?" promptNeeded="false" type="id_String" value="" xmi:id="_UuTP8A4DEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="messageFooter" prompt="messageFooter?" promptNeeded="false" type="id_String" value="" xmi:id="_UuTP8Q4DEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="line" prompt="line?" promptNeeded="false" type="id_String" value="" xmi:id="_hoD-EBHcEeuQX4no077JHQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_Z8Fzdw1TEeu_17iUJWBuWQ">
+    <contextParameter comment="" name="fromMail" prompt="fromMail?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8FzeA1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="toMail" prompt="toMail?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8FzeQ1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="ccMail" prompt="ccMail?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8Fzeg1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="bccMail" prompt="bccMail?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8Fzew1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="subject" prompt="subject?" promptNeeded="false" type="id_String" value="PROD - Report XStore Integration" xmi:id="_Z8FzfA1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8FzfQ1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="smtpHost" prompt="smtpHost?" promptNeeded="false" type="id_String" value="smtp.kering.net" xmi:id="_KKBdUA1dEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="smtpPort" prompt="smtpPort?" promptNeeded="false" type="id_String" value="25" xmi:id="_KKBdUQ1dEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="smtpUser" prompt="smtpUser?" promptNeeded="false" type="id_String" value="" xmi:id="_KKBdUg1dEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="smtpPassword" prompt="smtpPassword?" promptNeeded="false" type="id_String" value="" xmi:id="_KKBdUw1dEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="messageHeader" prompt="messageHeader?" promptNeeded="false" type="id_String" value="" xmi:id="_UuTP8g4DEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="messageFooter" prompt="messageFooter?" promptNeeded="false" type="id_String" value="" xmi:id="_UuTP8w4DEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="line" prompt="line?" promptNeeded="false" type="id_String" value="" xmi:id="_hoD-ERHcEeuQX4no077JHQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_Z8Fzfg1TEeu_17iUJWBuWQ">
+    <contextParameter comment="" name="fromMail" prompt="fromMail?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8Fzfw1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="toMail" prompt="toMail?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8FzgA1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="ccMail" prompt="ccMail?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8FzgQ1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="bccMail" prompt="bccMail?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8Fzgg1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="subject" prompt="subject?" promptNeeded="false" type="id_String" value="TST - Report integration" xmi:id="_Z8Fzgw1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" type="id_String" value="" xmi:id="_Z8FzhA1TEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="smtpHost" prompt="smtpHost?" promptNeeded="false" type="id_String" value="smtp.kering.net" xmi:id="_KKCEYA1dEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="smtpPort" prompt="smtpPort?" promptNeeded="false" type="id_String" value="25" xmi:id="_KKCEYQ1dEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="smtpUser" prompt="smtpUser?" promptNeeded="false" type="id_String" value="" xmi:id="_KKCEYg1dEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="smtpPassword" prompt="smtpPassword?" promptNeeded="false" type="id_String" value="" xmi:id="_KKCEYw1dEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="messageHeader" prompt="messageHeader?" promptNeeded="false" type="id_String" value="" xmi:id="_UuTP9A4DEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="messageFooter" prompt="messageFooter?" promptNeeded="false" type="id_String" value="" xmi:id="_UuTP9Q4DEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="line" prompt="line?" promptNeeded="false" type="id_String" value="" xmi:id="_hoD-EhHcEeuQX4no077JHQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ecbc8c9f-56be-410c-a948-312f4613f061"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wZIyipd1peQs22ZTbFqluD6gOkkgu0mVrOZE5RJslF2DbJ8BjeuF1J+WhjIwXlNY0tyW4s/2nJW2&#13;
+yIuwYdygqQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d1723abd-193c-4ad4-befa-e50af1c0010c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HvZn35B8WDmpbllMK3zR2EQryO3rev4M6Vu8Sxms5NWOsOdwHK8bTMx7OJVgC6/WIk3TEE4zFx68&#13;
+eW1mjQD2+w==</DigestValue></Reference></SignedInfo><SignatureValue>leHpnFk75C88QU58Eb1LyEyyA51hSlsWgHv8+ZbRzAc5FSS0siLQv4M0krFbJwhJHI5IQPpVnc9D&#13;
+40BPf7p2rLlSMPfwi6bkGsROltxiE7WgTaE8tUUqLc/TbPgl9J9VEmNDVidFV01hPsJZL6/GjyCB&#13;
+2lOPGqBV2VZCqOpjyRDVqu2tZrk2UaCD+YWI1NoJ1bX26zoFEK23IN+8ApXquOLJrKAetLt9iPFc&#13;
+NGKYalWxlPLcGGC7+2ajooQPw+v7retSFcTzVVyiZto0B9ETJE+A+pEAJVi30hDhv6RF9AJxFJ6a&#13;
+XMsp+ApKw+elWXtvEij9DaIP1/oUjzD8+FqGpA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d1723abd-193c-4ad4-befa-e50af1c0010c" Target="#_ecbc8c9f-56be-410c-a948-312f4613f061"><Timestamp>2022-02-16 08:55:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

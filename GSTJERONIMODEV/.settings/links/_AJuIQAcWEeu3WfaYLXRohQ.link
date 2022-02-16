@@ -1,0 +1,43 @@
+{
+  "itemId" : "_AJuIQAcWEeu3WfaYLXRohQ",
+  "contextList" : [ {
+    "contextName" : "Prod",
+    "repoId" : "_JL1ji48GEeyS_JpLB9GNYg",
+    "parameterList" : [ {
+      "id" : "_TXaOqAMEEeue4dtjEwSv4Q",
+      "name" : "UserName"
+    }, {
+      "id" : "_TXaOqQMEEeue4dtjEwSv4Q",
+      "name" : "Password"
+    }, {
+      "id" : "_ZHr5MQisEeu_17iUJWBuWQ",
+      "name" : "WSDL_Path"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_JL1ji48GEeyS_JpLB9GNYg",
+    "parameterList" : [ {
+      "id" : "_TXaOowMEEeue4dtjEwSv4Q",
+      "name" : "UserName"
+    }, {
+      "id" : "_TXaOpAMEEeue4dtjEwSv4Q",
+      "name" : "Password"
+    }, {
+      "id" : "_ZHr5MAisEeu_17iUJWBuWQ",
+      "name" : "WSDL_Path"
+    } ]
+  }, {
+    "contextName" : "Test",
+    "repoId" : "_JL1ji48GEeyS_JpLB9GNYg",
+    "parameterList" : [ {
+      "id" : "_TXaOrQMEEeue4dtjEwSv4Q",
+      "name" : "UserName"
+    }, {
+      "id" : "_TXaOrgMEEeue4dtjEwSv4Q",
+      "name" : "Password"
+    }, {
+      "id" : "_ZHr5MgisEeu_17iUJWBuWQ",
+      "name" : "WSDL_Path"
+    } ]
+  } ]
+}

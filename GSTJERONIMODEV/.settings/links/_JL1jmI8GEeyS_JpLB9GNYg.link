@@ -1,0 +1,26 @@
+{
+  "itemId" : "_JL1jmI8GEeyS_JpLB9GNYg",
+  "contextList" : [ {
+    "contextName" : "Dev",
+    "repoId" : "_JL1jiY8GEeyS_JpLB9GNYg",
+    "parameterList" : [ {
+      "id" : "_6qzKUQ-NEeu0QLFFni53Eg",
+      "name" : "M3_Password"
+    }, {
+      "id" : "_6qzKUg-NEeu0QLFFni53Eg",
+      "name" : "M3_Login"
+    }, {
+      "id" : "_6qzKUw-NEeu0QLFFni53Eg",
+      "name" : "M3_AdditionalParams"
+    }, {
+      "id" : "_6qzKVA-NEeu0QLFFni53Eg",
+      "name" : "M3_Database"
+    }, {
+      "id" : "_6qzKVQ-NEeu0QLFFni53Eg",
+      "name" : "M3_Server"
+    }, {
+      "id" : "_57wpoBzsEeuQX4no077JHQ",
+      "name" : "M3_CONO"
+    } ]
+  } ]
+}

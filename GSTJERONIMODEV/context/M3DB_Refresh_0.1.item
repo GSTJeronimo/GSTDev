@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="PRODtoDEV" xmi:id="_vMrcQDYQEeuOY4zTu_8RYQ">
+    <contextParameter comment="" name="M3_Password" prompt="M3_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:HpNETZDQjvH2hRId7CSSpjEvs00kro2tBM2M0lT6dpuG+3KJ" xmi:id="_vMrcQTYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_Login" prompt="M3_Login?" promptNeeded="false" type="id_String" value="LCMADMIN" xmi:id="_vMrcQjYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_AdditionalParams" prompt="M3_AdditionalParams?" promptNeeded="false" type="id_String" value="prompt=false" xmi:id="_vMrcQzYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_Database_From" prompt="M3_Database_From?" promptNeeded="false" type="id_String" value="M3FDBPRD" xmi:id="_vMrcRDYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_Server_From" prompt="M3_Server_From?" promptNeeded="false" type="id_String" value="GGM3" xmi:id="_vMrcRTYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_CONO_From" prompt="M3_CONO_From?" promptNeeded="false" type="id_BigDecimal" value="10" xmi:id="_vMrcRjYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_Database_To" prompt="M3_Database_To?" promptNeeded="false" type="id_String" value="M3FDBDEV" xmi:id="_vMrcRzYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_server_To" prompt="M3_server_To?" promptNeeded="false" type="id_String" value="GTCHDEV" xmi:id="_vMrcSDYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_CONO_To" prompt="M3_CONO_To?" promptNeeded="false" type="id_BigDecimal" value="510" xmi:id="_vMrcSTYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="LogPath" prompt="LogPath?" promptNeeded="false" type="id_String" value="&quot;\\\\chcoris002\\MIS\\___Technical\\RefreshLog\\&quot;" xmi:id="_JPI7wDYVEeuOY4zTu_8RYQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PRODtoTEST" xmi:id="_vMrcSjYQEeuOY4zTu_8RYQ">
+    <contextParameter comment="" name="M3_Password" prompt="M3_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:BrjXQenO5t8+njOGBK1NY5RrckAZ41oblkEa9Y8oL8k6y/DT" xmi:id="_vMrcSzYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_Login" prompt="M3_Login?" promptNeeded="false" type="id_String" value="LCMADMIN" xmi:id="_vMrcTDYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_AdditionalParams" prompt="M3_AdditionalParams?" promptNeeded="false" type="id_String" value="prompt=false" xmi:id="_vMrcTTYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_Database_From" prompt="M3_Database_From?" promptNeeded="false" type="id_String" value="M3FDBPRD" xmi:id="_vMrcTjYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_Server_From" prompt="M3_Server_From?" promptNeeded="false" type="id_String" value="GGM3" xmi:id="_vMrcTzYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_CONO_From" prompt="M3_CONO_From?" promptNeeded="false" type="id_BigDecimal" value="10" xmi:id="_vMrcUDYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_Database_To" prompt="M3_Database_To?" promptNeeded="false" type="id_String" value="M3FDBTST" xmi:id="_vMrcUTYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_server_To" prompt="M3_server_To?" promptNeeded="false" type="id_String" value="GTCHDEV" xmi:id="_vMrcUjYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="M3_CONO_To" prompt="M3_CONO_To?" promptNeeded="false" type="id_BigDecimal" value="510" xmi:id="_vMrcUzYQEeuOY4zTu_8RYQ"/>
+    <contextParameter comment="" name="LogPath" prompt="LogPath?" promptNeeded="false" type="id_String" value="&quot;\\\\chcoris002\\MIS\\___Technical\\RefreshLog\\&quot;" xmi:id="_JPI7wTYVEeuOY4zTu_8RYQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7896b947-4c0d-4679-adf6-510ad6727220"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>now43twgs86Yr9I4YevftIGtTdCIzrS+eELhXeEUFzC4QZLq8/MkGryMAafLj4vyVJjKxVSxhgHG&#13;
+sKvX7Qb9+w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9914f2a0-eb80-4c1a-8280-bd5184d625d5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZmeXowvNjBTqUlpFJg4koKCGTS/3eog16H3auXiTZh/pPIJsulHcVmRyDOpIf/n1zUNinvYe4vF1&#13;
+7nHCJXDkwQ==</DigestValue></Reference></SignedInfo><SignatureValue>iw/6E6GFmNn+8ktb4rGiuheesHAeqfA/62NGDWOv2Dl3+8y8Vw3XccAuiB7+5fztuXlzLg6of4CE&#13;
+JncKR4kCyPLJad9bOtE5DZLDIQLyIbbwIVAXPbdPzQZU0UzNqLNZblurvr8bX6+8PKV4qEUj9w53&#13;
+9Cy/JUg+z/H0Rh73Z8IqO0C36yX4gQ/amiNWFPQ82IzmwIYeTgERPUYbIzpUC+ydazMKY1SjxX3c&#13;
+9A2u8FSiylJ5RO28iwQorg8erTFlaspgO2vKGXJX2vwqmKEIhjNcjcqyQkZ3LaBH6TsUENMbDIiI&#13;
+gxcxadYiYhVp+N1ufKs/egF+ziisDjiaHZFVmQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9914f2a0-eb80-4c1a-8280-bd5184d625d5" Target="#_7896b947-4c0d-4679-adf6-510ad6727220"><Timestamp>2022-02-16 08:55:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

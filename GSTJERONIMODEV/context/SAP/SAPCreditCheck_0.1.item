@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_vCaGkHBTEeunJvCsAOSRpw">
+    <contextParameter comment="" name="lstFACI" prompt="lstFACI?" promptNeeded="false" type="id_String" value="&quot;'A35','A36'&quot;" xmi:id="_vCatoHBTEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="tableHTML" prompt="tableHTML?" promptNeeded="false" type="id_String" value="" xmi:id="_vCatoXBTEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="CUNO" prompt="CUNO?" promptNeeded="false" type="id_String" value="" xmi:id="_6BlfAHBVEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="logPath" prompt="logPath?" promptNeeded="false" type="id_String" value="&quot;\\\\chcoras018\\TST\\ITF\\SAPCreditCheckLog\\&quot;" xmi:id="_6BlfAXBVEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="Env" prompt="Env?" promptNeeded="false" type="id_String" value="&quot;DEV&quot;" xmi:id="_00hu0HBWEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="CCUS" prompt="CCUS?" promptNeeded="false" type="id_String" value="" xmi:id="_LqjqkHy8EeukIL8bufayXg"/>
+    <contextParameter comment="" name="CreditSegment" prompt="CreditSegment?" promptNeeded="false" type="id_String" value="" xmi:id="_QPQRcKHiEeuIC6yvDYUecA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_vCbUsHBTEeunJvCsAOSRpw">
+    <contextParameter comment="" name="lstFACI" prompt="lstFACI?" promptNeeded="false" type="id_String" value="&quot;'A35','A36'&quot;" xmi:id="_vCbUsXBTEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="tableHTML" prompt="tableHTML?" promptNeeded="false" type="id_String" value="" xmi:id="_vCbUsnBTEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="CUNO" prompt="CUNO?" promptNeeded="false" type="id_String" value="" xmi:id="_6BlfAnBVEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="logPath" prompt="logPath?" promptNeeded="false" type="id_String" value="&quot;\\\\chcoras018\\TST\\ITF\\SAPCreditCheckLog\\&quot;" xmi:id="_6BlfA3BVEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="Env" prompt="Env?" promptNeeded="false" type="id_String" value="&quot;PROD&quot;" xmi:id="_00hu0XBWEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="CCUS" prompt="CCUS?" promptNeeded="false" type="id_String" value="" xmi:id="_LqjqkXy8EeukIL8bufayXg"/>
+    <contextParameter comment="" name="CreditSegment" prompt="CreditSegment?" promptNeeded="false" type="id_String" value="" xmi:id="_QPQRcaHiEeuIC6yvDYUecA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_vCbUs3BTEeunJvCsAOSRpw">
+    <contextParameter comment="" name="lstFACI" prompt="lstFACI?" promptNeeded="false" type="id_String" value="&quot;'A35','A36'&quot;" xmi:id="_vCbUtHBTEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="tableHTML" prompt="tableHTML?" promptNeeded="false" type="id_String" value="" xmi:id="_vCbUtXBTEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="CUNO" prompt="CUNO?" promptNeeded="false" type="id_String" value="" xmi:id="_6BlfBHBVEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="logPath" prompt="logPath?" promptNeeded="false" type="id_String" value="&quot;\\\\chcoras018\\TST\\ITF\\SAPCreditCheckLog\\&quot;" xmi:id="_6BlfBXBVEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="Env" prompt="Env?" promptNeeded="false" type="id_String" value="&quot;TEST&quot;" xmi:id="_00hu0nBWEeunJvCsAOSRpw"/>
+    <contextParameter comment="" name="CCUS" prompt="CCUS?" promptNeeded="false" type="id_String" value="" xmi:id="_Lqjqkny8EeukIL8bufayXg"/>
+    <contextParameter comment="" name="CreditSegment" prompt="CreditSegment?" promptNeeded="false" type="id_String" value="" xmi:id="_QPQRcqHiEeuIC6yvDYUecA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6b6c5764-bc34-41bf-b882-207417c1182b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>119R25MRwzzxkxZyhfFmMZOdP1WxSg1jGX9lFUsfsqu8FZsYEXandsz+DrZgoRTwfrPVi2dVrQoZ&#13;
+1bpZLiX88A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4f2f2b21-6c89-4671-a170-c81eb700c27c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AX7FJQc8XRFpQctpr9WEPJd+R2Mfdaaj6O3DLdbzcndqz7S0je/da+C6PPEyR/5Xgq4axx0/r0+V&#13;
+KTCrdVDaaA==</DigestValue></Reference></SignedInfo><SignatureValue>LNDVWRZquEZiV3enrw0YkoiEDLXcsztjPAaML3Fi7DR+Q/pvnTjicpb3+ZXjtRJ6uFA2F9R61rFc&#13;
+HhOcfGwdqTgtOrYmJ3tcGSjI6R8WrqWTjy7STrPTr7iJVMjL9npWfawBsEkd3qjJTwoa8qM/l5af&#13;
+ZXI/l1f+2F/FwQDX+iGDmYdgGgLCQ22lRHxJ9AnqD7deSm5jXmew8nby3SyPYgyd4vTM/DGCkRMr&#13;
+2RBMB64bLYXKS4dt/wVOZUo6fEBwZidH3kLNvE4/Sb57zV15ci3+7FXyFi6doywbj7DUIr7pK+jt&#13;
+Jz+bO62iLsn2yCHHLDx46OSrjafC/71dOwY2BQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4f2f2b21-6c89-4671-a170-c81eb700c27c" Target="#_6b6c5764-bc34-41bf-b882-207417c1182b"><Timestamp>2022-02-16 08:55:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

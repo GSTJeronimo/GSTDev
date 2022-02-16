@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_oGO9gAGYEeuo2bDK10rgqQ">
+    <contextParameter comment="" name="COLOR_Report_File" prompt="COLOR_Report_File?" promptNeeded="false" type="id_File" value="" xmi:id="_oGO9hQGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="COLOR_Report_Folder_Out" prompt="COLOR_Report_Folder_Out?" promptNeeded="false" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\OutM3_DB\\&quot;" xmi:id="_-o2B0AInEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="COLOR_Report_Folder_Archive" prompt="COLOR_Report_Folder_Archive?" promptNeeded="false" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\OutM3_DB\\Archive\\&quot;" xmi:id="_HzqrcQJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="" xmi:id="_HzqreAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="LogPath" prompt="LogPath?" promptNeeded="false" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\OutM3_DB\\Log\\&quot;" xmi:id="_Zi84UD3zEeuZmYfzihprpA"/>
+    <contextParameter comment="" name="Env" prompt="Env?" promptNeeded="false" type="id_String" value="&quot;Dev&quot;" xmi:id="_Zi84UT3zEeuZmYfzihprpA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_oGO9hgGYEeuo2bDK10rgqQ">
+    <contextParameter comment="" name="COLOR_Report_File" prompt="COLOR_Report_File?" promptNeeded="false" type="id_File" value="" xmi:id="_oGO9iwGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="COLOR_Report_Folder_Out" prompt="COLOR_Report_Folder_Out?" promptNeeded="false" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\OutM3_DB\\&quot;" xmi:id="_-o2B0QInEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="COLOR_Report_Folder_Archive" prompt="COLOR_Report_Folder_Archive?" promptNeeded="false" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\OutM3_DB\\Archive\\&quot;" xmi:id="_HzrSggJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSiQJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="LogPath" prompt="LogPath?" promptNeeded="false" type="id_String" value="&quot;\\\\chcoras018\\e$\\Infor\\MECCentral\\TST\\ITF_FTP\\COLOR\\OutM3_DB\\Log\\&quot;" xmi:id="_Zi84Uj3zEeuZmYfzihprpA"/>
+    <contextParameter comment="" name="Env" prompt="Env?" promptNeeded="false" type="id_String" value="&quot;Test&quot;" xmi:id="_Zi84Uz3zEeuZmYfzihprpA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_oGO9jAGYEeuo2bDK10rgqQ">
+    <contextParameter comment="" name="COLOR_Report_File" prompt="COLOR_Report_File?" promptNeeded="false" type="id_File" value="" xmi:id="_oGO9kQGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="COLOR_Report_Folder_Out" prompt="COLOR_Report_Folder_Out?" promptNeeded="false" type="id_String" value="&quot;\\\\chzurxas026\\e$\\Infor\\MECCentral\\ITF_FTP\\COLOR\\OutM3_DB\\&quot;" xmi:id="_-o2B0gInEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="COLOR_Report_Folder_Archive" prompt="COLOR_Report_Folder_Archive?" promptNeeded="false" type="id_String" value="&quot;\\\\chzurxas026\\e$\\Infor\\MECCentral\\ITF_FTP\\COLOR\\OutM3_DB\\Archive\\&quot;" xmi:id="_HzrSkAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSlwJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="LogPath" prompt="LogPath?" promptNeeded="false" type="id_String" value="&quot;\\\\chzurxas026\\e$\\Infor\\MECCentral\\ITF_FTP\\COLOR\\OutM3_DB\\Log\\&quot;" xmi:id="_Zi84VD3zEeuZmYfzihprpA"/>
+    <contextParameter comment="" name="Env" prompt="Env?" promptNeeded="false" type="id_String" value="&quot;Prod&quot;" xmi:id="_Zi84VT3zEeuZmYfzihprpA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6919548f-017e-4fc7-9e55-42936a35448c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EzaVAtYnhMzb0DuxANS8zTSxMsqAo2CAmIXMIZbCoQCJE/RO4Dg2kcRs85+ZKIUGp+SgS2P8HNgC&#13;
+yJ2qQVI0jQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5d4d1269-1abf-4ca7-992b-45ac6d26e4f7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VIXnV+vSjuVa5tz8jy11nVkzxIhVI/wtwvcKMCsjGJLbxKYXlHxaBAGb473t/VVyQ8K+BcfrsefQ&#13;
+9ZamtwIgUQ==</DigestValue></Reference></SignedInfo><SignatureValue>J5xwenPXNrWW03luq/KoLoZJYHPK1QpfkTi9u7/Zxwlaps3tWmCH51HhokbK2UIwIWxEs/YriwT8&#13;
+9tgyBbJy+huolIc1yG8/xagmKopbz5mLXmmyM51oQXc42CnvE8PWK6B8RPax9svS04ht64GK7Tqj&#13;
+gS53YtN0cEr+LJ/vfnOo3o8h61RV6ezMlQa0WlF6JHEU5i7PdmjG6HL7vykuJOGMnsA8VpDW4Jxv&#13;
+IaXnSCD8NvE0v7y3OzfMNCydKegKhWEouWVBKOhMQ7xDj4nZzZ1GPGab54lLBHWyRr8RFv9pkIWr&#13;
+lUC7ykY/pSf5r9rLW44/v2LTcfUWuOadJ/nRaA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5d4d1269-1abf-4ca7-992b-45ac6d26e4f7" Target="#_6919548f-017e-4fc7-9e55-42936a35448c"><Timestamp>2022-02-16 08:55:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

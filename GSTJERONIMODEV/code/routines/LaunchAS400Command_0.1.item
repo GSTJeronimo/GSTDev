@@ -1,0 +1,40 @@
+package routines;
+
+import com.ibm.as400.access.AS400;
+import com.ibm.as400.access.AS400Message;
+import com.ibm.as400.access.CommandCall;
+
+/*
+ * Launch command in AS400
+ */
+public class LaunchAS400Command {
+	/**
+	 * executeCmd: function.
+	 *
+	 *
+	 * {talendTypes} void
+	 *
+	 * {Category} User Defined
+	 *
+	 * {param} string("host") input: The host value for AS400 server.
+	 * {param} string("command") input: The command value to execute.
+	 * {example} executeCmd("host", "command") # OK or KO
+	 */
+	public static void executeCmd(String host, String user, String pwd, String command) throws Exception{
+
+		AS400 sys = new AS400(host,user, pwd);
+
+		CommandCall cmd = new CommandCall(sys);
+		cmd.run(command);
+
+		AS400Message[] messageList = cmd.getMessageList();
+
+		//Log console
+		for(int i=0; i<messageList.length; i++){
+			System.out.println("CodeRetour : "+messageList[i].getID()+" text : "+messageList[i].getText());
+		}
+
+		sys.disconnectService(AS400.COMMAND);
+
+	}
+}

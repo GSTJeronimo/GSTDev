@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_oGO9gAGYEeuo2bDK10rgqQ">
+    <contextParameter comment="" name="XSTORE_Report_Header" prompt="XSTORE_Report_Header?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_oGO9gQGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_Encoding" prompt="XSTORE_Report_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII" xmi:id="_oGO9ggGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_FieldSeparator" prompt="XSTORE_Report_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;" xmi:id="_oGO9gwGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_RowSeparator" prompt="XSTORE_Report_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_oGO9hAGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_File" prompt="XSTORE_Report_File?" promptNeeded="false" type="id_File" value="" xmi:id="_oGO9hQGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_Folder_In" prompt="XSTORE_Report_Folder_In?" promptNeeded="false" type="id_String" value="&quot;\\\\Chcoras018\\Infor\\MECCentral\\TST\\ITF\\XSTORE\\TMP\\TALEND_TEST\\&quot;" xmi:id="_-o2B0AInEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="XSTORE_Report_Folder_Tmp" prompt="XSTORE_Report_Folder_Tmp?" promptNeeded="false" type="id_String" value="&quot;\\\\Chcoras018\\Infor\\MECCentral\\TST\\ITF\\XSTORE\\TMP\\&quot;" xmi:id="_HzqrcAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="XSTORE_Report_Folder_Archive" prompt="XSTORE_Report_Folder_Archive?" promptNeeded="false" type="id_String" value="&quot;\\\\Chcoras018\\Infor\\MECCentral\\TST\\ITF\\XSTORE\\Archive\\&quot;" xmi:id="_HzqrcQJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CO_ORNO" prompt="CO_ORNO?" promptNeeded="false" type="id_String" value="" xmi:id="_HzqrcgJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CN_ORNO" prompt="CN_ORNO?" promptNeeded="false" type="id_String" value="" xmi:id="_HzqrcwJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="SO_ORNO" prompt="SO_ORNO?" promptNeeded="false" type="id_String" value="" xmi:id="_HzqrdAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CO_FileTemp" prompt="CO_FileTemp?" promptNeeded="false" type="id_String" value="" xmi:id="_HzqrdQJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CN_FileTemp" prompt="CN_FileTemp?" promptNeeded="false" type="id_String" value="" xmi:id="_HzqrdgJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="SO_FileTemp" prompt="SO_FileTemp?" promptNeeded="false" type="id_String" value="" xmi:id="_HzqrdwJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="" xmi:id="_HzqreAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StoreID" prompt="StoreID?" promptNeeded="false" type="id_String" value="" xmi:id="_HzqreQJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StoreName" prompt="StoreName?" promptNeeded="false" type="id_String" value="" xmi:id="_HzqregJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StoreFACI" prompt="StoreFACI?" promptNeeded="false" type="id_String" value="" xmi:id="_HzqrewJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StoreWHLO" prompt="StoreWHLO?" promptNeeded="false" type="id_String" value="" xmi:id="_HzqrfAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StorePYCD" prompt="StorePYCD?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSgAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CO_Type" prompt="CO_Type?" promptNeeded="false" type="id_String" value="" xmi:id="_RS7SoAcbEeu3WfaYLXRohQ"/>
+    <contextParameter comment="" name="CN_Type" prompt="CN_Type?" promptNeeded="false" type="id_String" value="" xmi:id="_RS7SoQcbEeu3WfaYLXRohQ"/>
+    <contextParameter comment="" name="SO_Type" prompt="SO_Type?" promptNeeded="false" type="id_String" value="" xmi:id="_RS7SogcbEeu3WfaYLXRohQ"/>
+    <contextParameter comment="" name="CustomerNumber" prompt="CustomerNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_bcyuQAo_Eeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="CO_NBLINE" prompt="CO_NBLINE?" promptNeeded="false" type="id_String" value="&quot;0&quot;" xmi:id="_-dyT0AxYEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="CN_NBLINE" prompt="CN_NBLINE?" promptNeeded="false" type="id_String" value="&quot;0&quot;" xmi:id="_-dyT0QxYEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="SO_NBLINE" prompt="SO_NBLINE?" promptNeeded="false" type="id_String" value="&quot;0&quot;" xmi:id="_-dyT0gxYEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="StoreCountry" prompt="StoreCountry?" promptNeeded="false" type="id_String" value="" xmi:id="_d66fEC71Eeu2m6CA58WxrA"/>
+    <contextParameter comment="" name="StoreDIVI" prompt="StoreDIVI?" promptNeeded="false" type="id_String" value="" xmi:id="_3Tl-kC71Eeu2m6CA58WxrA"/>
+    <contextParameter comment="" name="LogPath" prompt="LogPath?" promptNeeded="false" type="id_String" value="&quot;\\\\Chcoras018\\Infor\\MECCentral\\TST\\ITF\\XSTORE\\Log\\&quot;" xmi:id="_2DJmkD3sEeuZmYfzihprpA"/>
+    <contextParameter comment="" name="Env" prompt="Env?" promptNeeded="false" type="id_String" value="" xmi:id="_75bEID3xEeuZmYfzihprpA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_oGO9hgGYEeuo2bDK10rgqQ">
+    <contextParameter comment="" name="XSTORE_Report_Header" prompt="XSTORE_Report_Header?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_oGO9hwGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_Encoding" prompt="XSTORE_Report_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII" xmi:id="_oGO9iAGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_FieldSeparator" prompt="XSTORE_Report_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;" xmi:id="_oGO9iQGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_RowSeparator" prompt="XSTORE_Report_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_oGO9igGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_File" prompt="XSTORE_Report_File?" promptNeeded="false" type="id_File" value="" xmi:id="_oGO9iwGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_Folder_In" prompt="XSTORE_Report_Folder_In?" promptNeeded="false" type="id_String" value="&quot;\\\\Chcoras018\\Infor\\MECCentral\\TST\\ITF\\XSTORE&quot;" xmi:id="_-o2B0QInEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="XSTORE_Report_Folder_Tmp" prompt="XSTORE_Report_Folder_Tmp?" promptNeeded="false" type="id_String" value="&quot;\\\\Chcoras018\\Infor\\MECCentral\\TST\\ITF\\XSTORE\\TMP\\&quot;" xmi:id="_HzrSgQJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="XSTORE_Report_Folder_Archive" prompt="XSTORE_Report_Folder_Archive?" promptNeeded="false" type="id_String" value="&quot;\\\\Chcoras018\\Infor\\MECCentral\\TST\\ITF\\XSTORE\\Archive\\&quot;" xmi:id="_HzrSggJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CO_ORNO" prompt="CO_ORNO?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSgwJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CN_ORNO" prompt="CN_ORNO?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrShAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="SO_ORNO" prompt="SO_ORNO?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrShQJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CO_FileTemp" prompt="CO_FileTemp?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrShgJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CN_FileTemp" prompt="CN_FileTemp?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrShwJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="SO_FileTemp" prompt="SO_FileTemp?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSiAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSiQJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StoreID" prompt="StoreID?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSigJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StoreName" prompt="StoreName?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSiwJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StoreFACI" prompt="StoreFACI?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSjAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StoreWHLO" prompt="StoreWHLO?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSjQJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StorePYCD" prompt="StorePYCD?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSjgJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CO_Type" prompt="CO_Type?" promptNeeded="false" type="id_String" value="" xmi:id="_RS7SowcbEeu3WfaYLXRohQ"/>
+    <contextParameter comment="" name="CN_Type" prompt="CN_Type?" promptNeeded="false" type="id_String" value="" xmi:id="_RS7SpAcbEeu3WfaYLXRohQ"/>
+    <contextParameter comment="" name="SO_Type" prompt="SO_Type?" promptNeeded="false" type="id_String" value="" xmi:id="_RS7SpQcbEeu3WfaYLXRohQ"/>
+    <contextParameter comment="" name="CustomerNumber" prompt="CustomerNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_bcyuQQo_Eeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="CO_NBLINE" prompt="CO_NBLINE?" promptNeeded="false" type="id_String" value="&quot;0&quot;" xmi:id="_-dyT0wxYEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="CN_NBLINE" prompt="CN_NBLINE?" promptNeeded="false" type="id_String" value="&quot;0&quot;" xmi:id="_-dyT1AxYEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="SO_NBLINE" prompt="SO_NBLINE?" promptNeeded="false" type="id_String" value="&quot;0&quot;" xmi:id="_-dyT1QxYEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="StoreCountry" prompt="StoreCountry?" promptNeeded="false" type="id_String" value="" xmi:id="_d67GIC71Eeu2m6CA58WxrA"/>
+    <contextParameter comment="" name="StoreDIVI" prompt="StoreDIVI?" promptNeeded="false" type="id_String" value="" xmi:id="_3Tl-kS71Eeu2m6CA58WxrA"/>
+    <contextParameter comment="" name="LogPath" prompt="LogPath?" promptNeeded="false" type="id_String" value="&quot;\\\\Chcoras018\\Infor\\MECCentral\\TST\\ITF\\XSTORE\\Log\\&quot;" xmi:id="_2DJmkT3sEeuZmYfzihprpA"/>
+    <contextParameter comment="" name="Env" prompt="Env?" promptNeeded="false" type="id_String" value="" xmi:id="_75bEIT3xEeuZmYfzihprpA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_oGO9jAGYEeuo2bDK10rgqQ">
+    <contextParameter comment="" name="XSTORE_Report_Header" prompt="XSTORE_Report_Header?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_oGO9jQGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_Encoding" prompt="XSTORE_Report_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII" xmi:id="_oGO9jgGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_FieldSeparator" prompt="XSTORE_Report_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;" xmi:id="_oGO9jwGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_RowSeparator" prompt="XSTORE_Report_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_oGO9kAGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_File" prompt="XSTORE_Report_File?" promptNeeded="false" type="id_File" value="" xmi:id="_oGO9kQGYEeuo2bDK10rgqQ"/>
+    <contextParameter comment="" name="XSTORE_Report_Folder_In" prompt="XSTORE_Report_Folder_In?" promptNeeded="false" type="id_String" value="&quot;\\\\chzurxas026\\MECCentral\\ITF_FTP\\XSTORE\\In_DB&quot;" xmi:id="_-o2B0gInEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="XSTORE_Report_Folder_Tmp" prompt="XSTORE_Report_Folder_Tmp?" promptNeeded="false" type="id_String" value="&quot;\\\\chzurxas026\\MECCentral\\ITF_FTP\\XSTORE\\In_DB\\TMP\\&quot;" xmi:id="_HzrSjwJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="XSTORE_Report_Folder_Archive" prompt="XSTORE_Report_Folder_Archive?" promptNeeded="false" type="id_String" value="&quot;\\\\chzurxas026\\MECCentral\\ITF_FTP\\XSTORE\\In_DB\\Archive\\&quot;" xmi:id="_HzrSkAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CO_ORNO" prompt="CO_ORNO?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSkQJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CN_ORNO" prompt="CN_ORNO?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSkgJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="SO_ORNO" prompt="SO_ORNO?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSkwJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CO_FileTemp" prompt="CO_FileTemp?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSlAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CN_FileTemp" prompt="CN_FileTemp?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSlQJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="SO_FileTemp" prompt="SO_FileTemp?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSlgJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSlwJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StoreID" prompt="StoreID?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSmAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StoreName" prompt="StoreName?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSmQJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StoreFACI" prompt="StoreFACI?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSmgJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StoreWHLO" prompt="StoreWHLO?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSmwJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="StorePYCD" prompt="StorePYCD?" promptNeeded="false" type="id_String" value="" xmi:id="_HzrSnAJQEeue4dtjEwSv4Q"/>
+    <contextParameter comment="" name="CO_Type" prompt="CO_Type?" promptNeeded="false" type="id_String" value="" xmi:id="_RS7SpgcbEeu3WfaYLXRohQ"/>
+    <contextParameter comment="" name="CN_Type" prompt="CN_Type?" promptNeeded="false" type="id_String" value="" xmi:id="_RS7SpwcbEeu3WfaYLXRohQ"/>
+    <contextParameter comment="" name="SO_Type" prompt="SO_Type?" promptNeeded="false" type="id_String" value="" xmi:id="_RS7SqAcbEeu3WfaYLXRohQ"/>
+    <contextParameter comment="" name="CustomerNumber" prompt="CustomerNumber?" promptNeeded="false" type="id_String" value="" xmi:id="_bcyuQgo_Eeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="CO_NBLINE" prompt="CO_NBLINE?" promptNeeded="false" type="id_String" value="&quot;0&quot;" xmi:id="_-dyT1gxYEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="CN_NBLINE" prompt="CN_NBLINE?" promptNeeded="false" type="id_String" value="&quot;0&quot;" xmi:id="_-dyT1wxYEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="SO_NBLINE" prompt="SO_NBLINE?" promptNeeded="false" type="id_String" value="&quot;0&quot;" xmi:id="_-dyT2AxYEeu_17iUJWBuWQ"/>
+    <contextParameter comment="" name="StoreCountry" prompt="StoreCountry?" promptNeeded="false" type="id_String" value="" xmi:id="_d67GIS71Eeu2m6CA58WxrA"/>
+    <contextParameter comment="" name="StoreDIVI" prompt="StoreDIVI?" promptNeeded="false" type="id_String" value="" xmi:id="_3Tl-ki71Eeu2m6CA58WxrA"/>
+    <contextParameter comment="" name="LogPath" prompt="LogPath?" promptNeeded="false" type="id_String" value="&quot;\\\\chzurxas026\\MECCentral\\ITF_FTP\\XSTORE\\In_DB\\Log\\&quot;" xmi:id="_2DJmkj3sEeuZmYfzihprpA"/>
+    <contextParameter comment="" name="Env" prompt="Env?" promptNeeded="false" type="id_String" value="" xmi:id="_75bEIj3xEeuZmYfzihprpA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9ac03775-2819-42fa-abab-19e130eb5ab3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9g1Y2gmVYZv0JycHIRECN7KIsqTgbCirLvdJgAiTk7KbviTLvDu+K9PdStRoDMN32r1p7O6bawtV&#13;
+e8vWaV7bug==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_00f6e096-8d0e-44ce-b2f4-ae29ea2052c1"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pSjK+Og1E8wh5knJfaU/pRmEgtr1NVXIyEYj4etyobQm0pyK63Hz5aAPB+ET39Vh+5ZtB+uH47H2&#13;
+EnjIiaNY7w==</DigestValue></Reference></SignedInfo><SignatureValue>cFTkh9R9GQ+yXoCp0ZhNKd8WHnSOSXtnUQlSkw0Y3/71c4ScHzbwwX75Hts/QQBm7/S5Ms4U6pdK&#13;
+v2+2TYLVTS0YJ89agwZ+f8rmxPCHiA8X2+AhRSc23KvTc8X0kgrRC3sIJHJAGFkieBuwF+wSUZFq&#13;
+hJhJ4ZLMpUqNuBhrUO+WAyJs2hrgLVf6rTkHDRcHvW37VFCWDOBZMRgy8msGbsxVYtMwaZPOJPsa&#13;
+AaMGK2L8M8CulHYXxpO0S9Q7ktAen2B+RdG4xmTwc+Z61vTrktzTnomiOHbKMjy8eAt3mpFg+v6q&#13;
+QZQ+987ngbtt7vseHmExT8JvXN4Wt88YPj+7PA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_00f6e096-8d0e-44ce-b2f4-ae29ea2052c1" Target="#_9ac03775-2819-42fa-abab-19e130eb5ab3"><Timestamp>2022-02-16 08:55:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
